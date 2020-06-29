@@ -9,26 +9,47 @@
   <body>
     <!-- Navigation bar, includes: logo and nav buttons.
     For case study page, this also includes case nav buttons -->
-    <nav class="nav-header">
-      <div class="header">
-        <a href="index3.html">
-          <img src="Images/landing-page/logoKarimSoliman2.svg" alt="Karim's Logo">
-        </a>
-      </div>
-      <div class="nav-items">
-        <a class="link" href="index3.html#work">WORK</a>
-        <a class="link" href="#">WRITING</a>
-        <a class="link" href="Documents/karim-soliman-resume.pdf">RESUME</a>
-        <a class="link" href="#">ABOUT ME</a>
-        <a class="contact-button" href="#">CONTACT</a>
-      </div>
-      <div class="case-sections">
-        <a class="link" href="case-airbox.html#overview">OVERVIEW</a>
-        <a class="link" href="case-airbox.html#research">RESEARCH & STRATEGY</a>
-        <a class="link" href="case-airbox.html#architecture">INFORMATION ARCHITECTURE</a>
-        <a class="link" href="case-airbox.html#visual">VISUAL DESIGN</a>
-      </div>
-    </nav>
+    <header>
+      <nav class="nav-header">
+        <div class="logo">
+          <a href="index.html">
+            <img src="Images/landing-page/logoKarimSoliman2.svg" alt="Karim's Logo">
+          </a>
+        </div>
+        <ul class="nav-items">
+          <li class="link">
+            <!-- "Work" button links to inner page section (found below) -->
+            <a href="index.html#work">WORK</a>
+          </li>
+          <li class="link">
+            <a href="#">WRITING</a>
+          </li>
+          <li class="link">
+            <a href="Documents/karim-soliman-resume.pdf">RESUME</a>
+          </li>
+          <li class="link">
+            <a href="#">ABOUT ME</a>
+          </li>
+          <li class="contact-button">
+            <a href="#">CONTACT</a>
+          </li>
+        </ul>
+        <ul class="case-sections">
+          <li>
+            <a class="link" href="case-airbox.html#overview">OVERVIEW</a>
+          </li>
+          <li>
+            <a class="link" href="case-airbox.html#research">RESEARCH & STRATEGY</a>
+          </li>
+          <li>
+            <a class="link" href="case-airbox.html#architecture">INFORMATION & ARCHITECTURE</a>
+          </li>
+          <li>
+            <a class="link" href="case-airbox.html#visual">VISUAL DESIGN</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <!-- Hero section of the case study page -->
     <section class="hero-case-container">
       <!-- Section includes: case logo, brief text, CTA button,
@@ -95,8 +116,8 @@
     </section>
     <!-- Illustration as section divider -->
     <div class="section-divider">
-  <img src="Images/case-airbox/sectionDividers.svg" alt="Toronto Bubbles">
-</div>
+      <img src="Images/case-airbox/sectionDividers.svg" alt="Toronto Bubbles">
+    </div>
     <section class="case-overview-container" id="overview">
       <div class="section-heading">
         <div class="heading">
@@ -548,6 +569,7 @@
             <li class="linkedin">
               <a href="https://www.linkedin.com/in/kaysoliman/" target="_blank">
                 <img src="Images/landing-page/icon_linkedinBlack.svg" alt="Linkedin Icon">
+              </a>
             </li>
             <li class="twitter">
               <a href="https://twitter.com/kasoliman" target="_blank">
@@ -560,7 +582,6 @@
               </a>
             </li>
           </ul>
-
         </div>
         <div class="copyright">
             <h5>Designed + Developed by Karim Soliman © 2020</h5>

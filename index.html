@@ -3,35 +3,58 @@
   <head>
     <meta charset="utf-8">
     <title>Karim Soliman | UX & Product Designer</title>
+    <!-- a favicon for my portfolio site (work in progress logo)-->
     <link rel="shortcut icon" href="favicon.ico">
   </head>
   <body>
-    <table>
-      <tr>
-        <td><img src="Images/logoKarimSoliman2.svg" alt="Karim's Logo">
-        </td>
-        <td>
-          <table cellspacing="40">
-            <tr>
-              <td><a href="#">WORK</a></td>
-              <td><a href="#">WRITING</a></td>
-              <td><a href="#">RESUME</a></td>
-              <td><a href="#">ABOUT ME</a></td>
-              <td><a href="#">CONTACT</a></td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-    <h1 class="headline-title">Hi. I'm Karim<br/>a <span class="headline-title-emphasis">UX.UI | Product Designer</span><br/>-based in Toronto!</h1>
-    <h2 class="headline-skills">Visual & Branding Communications<br/>Interaction Design<br/>UX Writing</h2>
-    <table>
-      <tr>
-        <td>
-          <img src="Images/myselfColor.jpg" alt="Karim's Photo">
-        </td>
-        <td>
-          <h5 class="landing-section-heading">QUICK SNAPSHOT</h5>
+    <!-- Navigation bar, includes: logo and nav buttons -->
+    <nav class="nav-header">
+      <div class="header">
+        <img src="Images/landing-page/logoKarimSoliman2.svg" alt="Karim's Logo">
+      </div>
+      <div class="nav-items">
+        <ul>
+          <li class="link">
+            <!-- "Work" button links to inner page section (found below) -->
+            <a href="index3.html#work">WORK</a>
+          </li>
+          <li class="link">
+            <a href="#">WRITING</a>
+          </li>
+          <li class="link">
+            <a href="Documents/karim-soliman-resume.pdf">RESUME</a>
+          </li>
+          <li class="link">
+            <a href="#">ABOUT ME</a>
+          </li>
+          <li class="contact-button">
+            <a href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero section of my landing page -->
+    <section class="hero-container">
+      <!-- Main heading: title + location -->
+      <div class="headline-title">
+        <h1>Hi. I'm Karim<br/>a <span class="headline-title-emphasis">UX.UI | Product Designer</span><br/>-based in Toronto!</h1>
+      </div>
+      <!-- sub heading: my main three skills -->
+      <div class="headline-skills">
+        <h2>Visual & Branding Communications<br/>Interaction Design<br/>UX Writing</h2>
+      </div>
+    </section>
+    <!-- Quick Snapshot section, encloses: landing page personal image, skills, and description -->
+    <section class="quick-snapshot-container">
+      <!-- This div only includes personal image -->
+      <div class="personal-image">
+        <img src="Images/landing-page/myselfColor.jpg" alt="Karim's Photo">
+      </div>
+      <!-- This div only includes text of "Quick Snapshot" section,
+      includes two inner sections: "snapshot-skills" and "snapshot-description" -->
+      <div class="snapshot-text">
+        <div class="snapshot-skills">
+          <h5 class="landing-label">QUICK SNAPSHOT</h5>
           <h5 class="snapshot-skills-heading">What is it that I focus on</h5>
           <h5 class="snapshot-skills-text">UX/UI & Product Design // Interaction Design //<br/>Branding+Communicatio Design // UX Writing</h5>
           <h5 class="snapshot-skills-heading">My Arsenal of Toolkits</h5>
@@ -39,49 +62,102 @@
           <h5 class="snapshot-skills-heading">open to and learning other tools</h5>
           <h5 class="snapshot-skills-heading">How I have built my skills</h5>
           <h5 class="snapshot-skills-text">UX/UI Design & Front-End Development //<br/>MSc. International Banking & Finance<br/>B.A. Economics, with Business and International Relations</h5>
+        </div>
+        <div class="snapshot-description">
           <h3>With a business and creative background, my avid<br/>interest for creating solutions to both these<br/>spectrums, places me at the intersection of<br/>business and human-centered design.</h3>
-        </td>
-      </tr>
-    </table>
+        </div>
+      </div>
+    </section>
+    <!-- A divider line -->
     <hr>
-    <h5 class="landing-section-heading">FEATURED WORK</h5>
-    <table>
-      <tr>
-        <td><img src="Images/airboxCaseShow.svg" alt="Airbox Mockup Picture">
-        </td>
-        <td>
-          <img src="Images/airboxLogo.svg" alt="Airbox Logo">
-          <h4>A progressive cloud storage web app, optimized<br/>for desktop and mobile performance. Airbox is<br/>focused on delivering highly-polished and<br/>personalized user experiences. </h4>
-          <a class="cta-button" href="#">VIEW CASE STUDY</a>
-        </td>
-      </tr>
-    </table>
-    <table>
-      <tr>
-        <td>
-          <h3>Case 2</h3>
-          <h4>Sed velit lectus, porttitor eu convallis sit amet,<br/>semper eget mauris. Integer in </h4>
-          <a class="cta-button" href="#">VIEW CASE STUDY</a>
-        </td>
-        <td>
-          <img src="Images/caseStudyTwoPic.jpg" alt="Case Study Two Picture">
-        </td>
-      </tr>
-    </table>
-    <h1 class="headline-title">Let's Design</h1>
-    <h3 class="mission-statement">Designer of integrated experiences! I believe wholeheartedly in<br/>the principles of design in solving for users’ challenges and<br/>delivering their aspirations.</h3>
-    <h3 class="connect-with-me">Connect with me if you’re interested in building unique and impactful<br/>partnerships.</h3>
-    <a class="cta-button" href="#">GET IN TOUCH</a>
-    <div class="illustration">
-      <img src="Images/torontocity.svg" alt="Toronto City Illustration">
-    </div>
-    <h1 class="footer-heading">Feel free to connect with me</h1>
-    <table>
-      <tr>
-        <td><img src="Images/icon_linkedinBlack.svg" alt="Linkedin Icon"></td>
-        <td><img src="Images/icon_twitterBlack.svg" alt="Twitter Icon"></td>
-        <td><img src="Images/icon_mediumBlack.svg" alt="Medium Icon"></td>
-      </tr>
-    </table>
-    <h5 class="copyright">Designed + Developed by Karim Soliman © 2020</h5>
+    <!-- Featured portfolio work section -->
+    <section class="featured-work-container" id="work">
+      <!-- "Featured Work" section title -->
+      <div class="landing-label">
+        <h5>FEATURED WORK</h5>
+      </div>
+      <!-- Portfolio case one section, includes: mockup image, case logo, brief text, and CTA button -->
+      <div class="case-one">
+        <!-- Portfolio case one mockup/display image -->
+        <div class="case-mockup-image">
+          <img src="Images/landing-page/airboxCaseShow.svg" alt="Airbox Mockup Picture">
+        </div>
+        <div class="case-mockup-description">
+          <div class="case-mockup-brief">
+            <img src="Images/landing-page/airboxLogo.svg" alt="Airbox Logo">
+            <h4>A progressive cloud storage web app, optimized<br/>for desktop and mobile performance. Airbox is<br/>focused on delivering highly-polished and<br/>personalized user experiences. </h4>
+          </div>
+          <div class="case-button">
+            <a class="cta-button" href="project.html">VIEW CASE STUDY</a>
+          </div>
+        </div>
+      </div>
+      <!-- (work in progress) Portfolio case two section, includes: mockup image, case logo, brief text, and CTA button -->
+      <div class="case-two">
+        <div class="case-mockup-image">
+          <img src="Images/landing-page/caseStudyTwoPic.jpg" alt="Case Study Two Picture">
+        </div>
+        <div class="case-mockup-description">
+          <div class="case-mockup-brief ">
+            <h3>Case 2</h3>
+            <h4>Sed velit lectus, porttitor eu convallis sit amet,<br/>semper eget mauris. Integer in </h4>
+          </div>
+          <div class="case-button">
+            <a class="cta-button" href="#">VIEW CASE STUDY</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Get in touch section -->
+    <section class="get-intouch-wrapper">
+      <!-- This container includes: section title, statements, and CTA button -->
+      <div class="get-intouch-container">
+        <div class="headline-title">
+          <h1>Let's Design</h1>
+        </div>
+        <div class="mission-statement">
+          <h3>Designer of integrated experiences! I believe wholeheartedly in<br/>the principles of design in solving for users’ challenges and<br/>delivering their aspirations.</h3>
+        </div>
+        <div class="connect-with-me">
+          <h3>Connect with me if you’re interested in building unique and impactful<br/>partnerships.</h3>
+        </div>
+        <!-- work in progress for my contact link -->
+        <div class="cta-button">
+          <a href="#">GET IN TOUCH</a>
+        </div>
+      </div>
+    </section>
+    <!-- Illustration of Toronto -->
+    <section class="illustration-toronto">
+      <img src="Images/landing-page/torontocity.svg" alt="Toronto City Illustration">
+    </section>
+    <!-- Footer section -->
+    <footer class="footer-wrapper">
+      <div class="footer-container">
+        <h1 class="footer-heading">Feel free to connect with me</h1>
+        <div class="social-links">
+          <ul>
+            <li class="linkedin">
+              <a href="https://www.linkedin.com/in/kaysoliman/" target="_blank">
+                <img src="Images/footer-section/icon_linkedinBlack.svg" alt="Linkedin Icon">
+            </li>
+            <li class="twitter">
+              <a href="https://twitter.com/kasoliman" target="_blank">
+                <img src="Images/footer-section/icon_twitterBlack.svg" alt="Twitter Icon">
+              </a>
+            </li>
+            <li class="medium">
+              <a href="https://medium.com/@kasoliman" target="_blank">
+                <img src="Images/footer-section/icon_mediumBlack.svg" alt="Medium Icon">
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <div class="copyright">
+            <h5>Designed + Developed by Karim Soliman © 2020</h5>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

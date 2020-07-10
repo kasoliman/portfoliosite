@@ -5,6 +5,8 @@
     <title>Karim Soliman | UX & Product Designer</title>
     <!-- link to my style sheet-->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- link to style sheet to reset browser defaults -->
+    <link rel="stylesheet" href="css/reset.css">
     <!--link to google fonts in order to use my lato thin, light, regular, and bold fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
     <!--link to Adobe fonts (typekit) in order to use my lato medium font (not available on Google Fonts)-->
@@ -14,11 +16,11 @@
     <!-- a favicon for my portfolio site (work in progress logo)-->
     <link rel="shortcut icon" href="favicon.ico">
   </head>
-  <body>
+  <body class="case-body">
     <!-- Navigation bar, includes: logo and nav buttons.
     For case study page, this also includes case nav buttons -->
-    <header>
-      <nav class="nav-header">
+    <header class="header-case">
+      <nav class="nav-header-case">
         <a class="logo" href="index.html">
           <img src="Images/landing-page/logoKarimSoliman2.svg" alt="Karim's Logo">
         </a>
@@ -42,16 +44,16 @@
         </ul>
         <ul class="case-sections">
           <li>
-            <a href="case-airbox.html#overview">OVERVIEW</a>
+            <a href="project.html#overview">OVERVIEW</a>
           </li>
           <li>
-            <a href="case-airbox.html#research">RESEARCH & STRATEGY</a>
+            <a href="project.html#research">RESEARCH & STRATEGY</a>
           </li>
           <li>
-            <a href="case-airbox.html#architecture">INFORMATION & ARCHITECTURE</a>
+            <a href="project.html#architecture">INFORMATION ARCHITECTURE</a>
           </li>
           <li>
-            <a href="case-airbox.html#visual">VISUAL DESIGN</a>
+            <a href="project.html#visual">VISUAL DESIGN</a>
           </li>
         </ul>
       </nav>
@@ -68,7 +70,7 @@
           <div class="case-headline-text">
             <h4>A progressive cloud storage web app, optimized for<br/>desktop and mobile performance. As opposed to the<br/>many variations of cloud storage products out there,<br/>Airbox is focused on delivering highly-polished and<br/>personalized user experiences. </h4>
           </div>
-          <div class="case-study-button">
+          <div>
             <ul>
               <li class="desktop-prototype-button">
                 <a href="https://xd.adobe.com/view/c6c38a52-bd11-4065-7496-3d77d0c4e3ea-b0f2/?fullscreen&hints=off" target="_blank">VIEW DESKTOP PROTOTYPE</a>
@@ -87,20 +89,26 @@
       <!-- Headline images of case study,
       found right at bottom of hero/fold area -->
       <div class="headline-images">
-        <div class="headline-image-left">
+        <img src="Images/case-airbox/headline-images.png" alt="Airbox Working Remotely">
+        <!--<div class="headline-image-left">
           <img src="Images/case-airbox/workingRemotely.svg" alt="Airbox Working Remotely">
         </div>
         <div class="headline-image-right">
           <img src="Images/case-airbox/timeToOrganize.svg" alt="Airbox Organize">
         </div>
-      </div>
+      </div>-->
     </section>
     <section class="case-snapshot-container">
       <div class="case-final-mockup">
-        <img src="Images/case-airbox/airboxMobileMockup.svg" alt="Airbox Mobile Mockup">
+        <img src="Images/case-airbox/airbox-mobile-mockup.png" alt="Airbox Mobile Mockup">
       </div>
+
+      <div class="snapshot-line">
+
+      </div>
+
       <ul class="case-roles-deliverables">
-        <li class="small-label">Roles</li>
+        <li class="small-label-roles">Roles</li>
         <li class="roles-text">UX Designer // UX Researcher // Content Strategist //<br/>Visual Designer // Branding & Identity</li>
         <li class="small-label">Design Deliverables</li>
         <li class="deliverables-text">Research & Strategy: User Surveys // Personas //<br/>Competitive Analysis</li>
@@ -125,8 +133,12 @@
       <div class="summary-wrapper">
         <div class="section-box">
           <h3>SUMMARY</h3>
-          <p>There’s much opportunity within the cloud storage market and that was our client’s initial spark to develop a new cloud storage web app, but with such a competitive cloud storage market, we were approached to design the full product and make sure that it had the right set of features to enable it to compete and shine alongside this particular market’s big-names. </p>
-          <p>A small design composed of a lead designer and myself were entrusted with the full design elements of this new web app. I was responsible for making most of the design decisions and producing the needed deliverables. With this being a completely new product, everything that the product needed from research, testing, to design was fully developed by myself from start to finish.</p>
+          <p>There’s much opportunity within the cloud storage market and that was our client’s initial spark to develop a new cloud storage
+            web app, but with such a competitive cloud storage market, we were approached to design the full product and make sure that it had
+            the right set of features to enable it to compete and shine alongside this particular market’s big-names.<br><br>
+            A small design composed of a lead designer and myself were entrusted with the full design elements of this new web app.
+            I was responsible for making most of the design decisions and producing the needed deliverables. With this being a completely new product,
+            everything that the product needed from research, testing, to design was fully developed by myself from start to finish.</p>
         </div>
         <div class="deliverables-wrapper">
           <div class="deliverables-box">
@@ -155,7 +167,7 @@
         </div>
       </div>
       <div class="overview-mockup">
-        <img src="Images/case-airbox/overviewMockup.svg" alt="Airbox Desktop & Mobile Mockup">
+        <img src="Images/case-airbox/overview-mockup.png" alt="Airbox Desktop & Mobile Mockup">
       </div>
     </section>
     <!-- Illustration as section divider -->
@@ -184,15 +196,17 @@
       </div>
       <div class="horizontal-section-wrapper">
         <div class="features-box">
-          <h2>Features Users Cared Most About</h2>
+          <h2 class="features-title">Features Users Cared Most About</h2>
           <div class="features-points">
             <h3><span class="emphasis-bold">Majority of users agreed on:</span></h3>
-            <h3>Automatic sync and/or backup.</h3>
-            <h3>Creating content on the service (e.g. notes, documents, and/or spreadsheets).</h3>
-            <h3>Being able to upload files/folders to the cloud storage from a desktop and/or mobile device.</h3>
-            <h3>Able to organize their files/folders (e.g. file categorization, tags, folders, etc…).</h3>
-            <h3>Access from both a desktop and mobile device.</h3>
-            <h3>Collaboration features, mainly for sharing/receiving files.</h3>
+            <ul class="features-list">
+              <li>Automatic sync and/or backup.</li>
+              <li>Creating content on the service (e.g. notes, documents, and/or spreadsheets).</li>
+              <li>Being able to upload files/folders to the cloud storage from a desktop and/or mobile device.</li>
+              <li>Able to organize their files/folders (e.g. file categorization, tags, folders, etc…).</li>
+              <li>Access from both a desktop and mobile device.</li>
+              <li>Collaboration features, mainly for sharing/receiving files.</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -203,23 +217,25 @@
         </div>
         <div class="points-description">
           <h3><span class="emphasis-bold">For each of the competition, the following was detailed:</span></h3>
-          <h3>Background information about the competitor</h3>
-          <h3>Primary audience</h3>
-          <h3>Differentiation factors</h3>
-          <h3>Competitor’s product positioning.</h3>
-          <h3>Product’s price offering mix</h3>
-          <h3>SWOT analysis on the product</h3>
+          <ul class="features-list">
+            <li>Background information about the competitor</li>
+            <li>Primary audience</li>
+            <li>Differentiation factors</li>
+            <li>Competitor’s product positioning.</li>
+            <li>Product’s price offering mix</li>
+            <li>SWOT analysis on the product</li>
+          </ul>
         </div>
         <div class="paragraph-description">
-          <h3>In addition to the above assessment, I had selected the top three big-name competitors and went over each of their product’s user flows to assess their user-experience on:</h3>
+          <p>In addition to the above assessment, I had selected the top three big-name competitors and went over each of their product’s user flows to assess their user-experience on:</p>
         </div>
       </div>
       <div class="research-sketches-wrapper">
         <div class="sketch-titles">
           <ul>
             <li>Onboarding process</li>
-            <li>Saving an item</li>
-            <li>Organizing an item</li>
+            <li class="saving-item">Saving an item</li>
+            <li class="organize-item">Organizing an item</li>
           </ul>
         </div>
         <div class="research-sketches">
@@ -233,7 +249,7 @@
           <p>Two key personas were developed for this project, representing the key demographics of the product:</p>
         </div>
         <div class="user-personas-wrapper">
-          <div class="user-persona">
+          <div class="user-persona-one">
             <div class="persona-image">
               <img src="Images/case-airbox/samuelPersona.png" alt="Samuel User Persona">
             </div>
@@ -241,7 +257,7 @@
               <a href="https://drive.google.com/file/d/13px5YN5HgFLAOIjnk1JKKAO-PopL06ZD/view?usp=sharing" target="_blank">VIEW SAMUEL'S PERSONA</a>
             </div>
           </div>
-          <div class="user-persona">
+          <div class="user-persona-two">
             <div class="persona-image">
               <img src="Images/case-airbox/zoePersona.png" alt="Zoe User Persona">
             </div>
@@ -279,13 +295,15 @@
           <h3>WIREFRAME SKETCHES</h3>
           <p>Based on the mapped user flows, I sketched the wireframes that would set the foundations for the later hifi mockups and prototypes of the product. At this part of the design phase, great emphasis was placed on iterating back-and-forth on the wireframes, all to ensure that the right type of foundation was being built.</p>
           <p>Through the various sketches and iterations, I realized the benefits of some of the competitor’s products, but also where they fell short. Based on the already conducted research, I was able to iterate faster through my lofi prototypes.</p>
-          <div class="sketch-screenshot">
-            <img src="Images/case-airbox/sketchScreenshotOne.png" alt="Wireframe Sketch One">
+          <div class="sketch-screenshot-one">
+            <img src="Images/case-airbox/sketchScreenshotTwo.png" alt="Wireframe Sketch One">
           </div>
         </div>
         <div class="section-box">
-          <div class="sketch-screenshot">
-            <img src="Images/case-airbox/sketchScreenshotTwo.png" alt="Wireframe Sketch Two">
+          <div class="sketch-screenshot-two">
+            <img src="Images/case-airbox/sketchScreenshotOne.png" alt="Wireframe Sketch Two">
+          </div>
+          <div class="sketch-screenshot-three">
             <img src="Images/case-airbox/sketchScreenshotThree.png" alt="Wireframe Sketch Three">
           </div>
         </div>
@@ -294,12 +312,12 @@
         <div class="section-box">
           <h3>DIGITAL WIREFRAMES</h3>
           <p>After finalizing the initial pen and paper sketches, these concepts were then transformed to digital to act as a reference for designing the product.</p>
-        </div>
-        <div class="section-box">
-          <div class="wireframes-images">
+          <div class="wireframes-images-one">
             <img src="Images/case-airbox/digitalWireframeOne.png" alt="Digital Wireframe One">
-            <img src="Images/case-airbox/digitalWireframeTwo.png" alt="Digital Wireframe Two">
           </div>
+        </div>
+        <div class="wireframes-images-two">
+          <img src="Images/case-airbox/digitalWireframeTwo.png" alt="Digital Wireframe Two">
         </div>
       </div>
       <div class="usability-testing-wrapper">
@@ -329,9 +347,11 @@
             <h2>Changes to Prototypes Due to User Testing</h2>
           </div>
           <div class="prototype-changes-points">
-            <h3><span class="emphasis-bold">Signing up for an account:</span>Overall response was very positive from the users. Most were quick to notice the CTA buttons across the landing pages, for both the desktop and mobile versions of the web app.</h3>
-            <h3><span class="emphasis-bold">Uploading/Adding a piece of content:</span>For the mobile version of the web app, most of the tested users didn’t know where to go (without guidance) to upload a file. The icons on the bottom of the screen where not as clear, and many didn’t know which button should be used to upload a document. Users were confused between the “plus” and “cloud” icons.</h3>
-            <h3><span class="emphasis-bold">Organizing a piece of content:</span>Users didn’t know where to find the right button to create folders in order to organize their content. Some other users had to test out different buttons in order to get to the right action, causing a lot of frustration for the user.</h3>
+            <ul class="changes-list">
+              <li><span class="emphasis-bold">Signing up for an account:</span> Overall response was very positive from the users. Most were quick to notice the CTA buttons across the landing pages, for both the desktop and mobile versions of the web app.</li>
+              <li><span class="emphasis-bold">Uploading/Adding a piece of content:</span> For the mobile version of the web app, most of the tested users didn’t know where to go (without guidance) to upload a file. The icons on the bottom of the screen where not as clear, and many didn’t know which button should be used to upload a document. Users were confused between the “plus” and “cloud” icons.</li>
+              <li><span class="emphasis-bold">Organizing a piece of content:</span> Users didn’t know where to find the right button to create folders in order to organize their content. Some other users had to test out different buttons in order to get to the right action, causing a lot of frustration for the user.</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -373,13 +393,13 @@
           </div>
         </div>
         <div class="logo-sketches-wrapper">
-          <div class="logo-sketch">
+          <div class="logo-sketch-one">
             <img src="Images/case-airbox/airboxLogoConcepts.jpg" alt="Airbox Logo Concepts">
           </div>
-          <div class="logo-sketch">
+          <div class="logo-sketch-two">
             <img src="Images/case-airbox/airboxLogoSketchOne.svg" alt="Airbox Logo Sketches One">
           </div>
-          <div class="logo-sketch">
+          <div class="logo-sketch-three">
             <img src="Images/case-airbox/airboxLogoSketchTwo.svg" alt="Airbox Logo Sketches Two">
           </div>
         </div>
@@ -390,9 +410,11 @@
             <h2>Key Elements to Branding Strategy</h2>
           </div>
           <div class="branding-elements-points">
-            <h3><span class="emphasis-bold">Choice of content/messages should speak to a working individual/professional</span>in line with the personas of this product.</h3>
-            <h3><span class="emphasis-bold">Color usage should be employed and limited to three variants</span>- similar to what is used with the landing pages of the reviewed competition . Rationale for the use of colors is to steer away from a “bland” look to the product. I wanted an interesting product that is fun, yet not “childish”. It should have a polished and modern look. One that is also branded as an “elite” product, thus evoking a strong sense of achievement by using it.</h3>
-            <h3><span class="emphasis-bold">Branding should employ icons/shapes but make sure these icons are not repetitive or too familiar.</span>They should be unique and memorable. This product should be a unique offering to the market and showcase how cloud storage is entering a new phase of doing things better.</h3>
+            <ul class="branding-list">
+              <li><span class="emphasis-bold">Choice of content/messages should speak to a working individual/professional</span>, in line with the personas of this product.</li>
+              <li><span class="emphasis-bold">Color usage should be employed and limited to three variants</span> - similar to what is used with the landing pages of the reviewed competition . Rationale for the use of colors is to steer away from a “bland” look to the product. I wanted an interesting product that is fun, yet not “childish”. It should have a polished and modern look. One that is also branded as an “elite” product, thus evoking a strong sense of achievement by using it.</li>
+              <li><span class="emphasis-bold">Branding should employ icons/shapes but make sure these icons are not repetitive or too familiar.</span> They should be unique and memorable. This product should be a unique offering to the market and showcase how cloud storage is entering a new phase of doing things better.</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -439,11 +461,13 @@
             <h2>Additional Improvements Highlighted<br/>By Further User Tests</h2>
           </div>
           <div class="additional-improvements-points">
-            <h3><span class="emphasis-bold">Adding icons to the landing page’s features section.</span> Icons similar to what’s found on the Mobile’s landing page features section.</h3>
-            <h3>To have <span class="emphasis-bold"> a second look at the mobile dashboard’s background color. </span>Check other background colors to align more with the “look/feel” of the brand.</h3>
-            <h3><span class="emphasis-bold">Adding a contact us section </span>to the landing page of both the mobile and desktop versions.</h3>
-            <h3><span class="emphasis-bold">To fix the “create account” modal window </span>on the desktop’s landing page so that it would include a “confirm password” input field.</h3>
-            <h3><span class="emphasis-bold">Consider adding a weather icon </span>o add to the experience of the dashboard notifications.</h3>
+            <ul class="improvements-list">
+              <li><span class="emphasis-bold">Adding icons to the landing page’s features section.</span> Icons similar to what’s found on the Mobile’s landing page features section.</li>
+              <li>To have <span class="emphasis-bold"> a second look at the mobile dashboard’s background color. </span>Check other background colors to align more with the “look/feel” of the brand.</li>
+              <li><span class="emphasis-bold">Adding a contact us section </span>to the landing page of both the mobile and desktop versions.</li>
+              <li><span class="emphasis-bold">To fix the “create account” modal window </span>on the desktop’s landing page so that it would include a “confirm password” input field.</li>
+              <li><span class="emphasis-bold">Consider adding a weather icon </span>o add to the experience of the dashboard notifications.</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -463,25 +487,26 @@
         <div class="concluding-section-paragraph">
           <div class="column-one">
             <p>The challenge with this product was building a solution with all the features that’s considered best-practice in the cloud storage space, thus ensuring it’s on par with key competitors, however also designing to have an app with its very own “character” and unique user experience.</p>
+            <br>
             <p>With cloud storage solutions, most of the products in the market focus a great deal on how solid their network structure is, voicing over the safety of user’s files. Here, I have designed a product that goes one step ahead of what’s by now considered default features of a cloud storage app, by instead focusing on redesigning the experience of a mundane service like cloud storage.</p>
+            <br>
             <p>The real objective here wasn’t to reinvent the infrastructure of cloud storage, but to redefine what cloud storage represented to the user, the overall experience. It was how to make a mundane solution like cloud storage into something that’s “fun”, as the client had requested.</p>
           </div>
           <div class="column-two">
             <p>What surprised me the most is how many of the assumptions that the client had delivered about users of these type of products were challenged during the user research stage of the project. There is a lot of misunderstanding that took place with the first designed wireframe, and if it weren’t for numerous usability tests, many of these assumptions would have carried over.</p>
+            <br>
             <p>Also, I believe there is room for a lot more improvement but with the project’s deadline to completion, the scope for research was capped. If I had a bigger bandwidth on this project’s timeline, a lot more insight on user behavior by segment could have been revealed, which could lead to some great enhancements to the UX design of cloud storage. This is a big sphere and there’s a lot of opportunity here!</p>
           </div>
         </div>
         <!-- View mockups buttons (CTA) -->
-        <div class="case-study-button">
-          <ul>
-            <li>
-              <a href="https://xd.adobe.com/view/c6c38a52-bd11-4065-7496-3d77d0c4e3ea-b0f2/?fullscreen&hints=off" target="_blank">VIEW DESKTOP PROTOTYPE</a>
-            </li>
-            <li>
-              <a href="https://xd.adobe.com/view/5768ae6d-3096-4fc9-604f-deffadcc28ec-2159/?hints=off" target="_blank">VIEW MOBILE PROTOTYPE</a>
-            </li>
-          </ul>
-        </div>
+        <ul class="lessons-learned-buttons">
+          <li class="desktop-prototype-button">
+            <a href="https://xd.adobe.com/view/c6c38a52-bd11-4065-7496-3d77d0c4e3ea-b0f2/?fullscreen&hints=off" target="_blank">VIEW DESKTOP PROTOTYPE</a>
+          </li>
+          <li class="mobile-prototype-button">
+            <a href="https://xd.adobe.com/view/5768ae6d-3096-4fc9-604f-deffadcc28ec-2159/?hints=off" target="_blank">VIEW MOBILE PROTOTYPE</a>
+          </li>
+        </ul>
       </div>
     </section>
     <!-- Get in touch section -->
@@ -508,17 +533,17 @@
           <ul>
             <li class="linkedin">
               <a href="https://www.linkedin.com/in/kaysoliman/" target="_blank">
-                <img src="Images/landing-page/icon_linkedinBlack.svg" alt="Linkedin Icon">
+                <img src="Images/footer-section/icon_linkedin.svg" alt="Linkedin Icon">
               </a>
             </li>
             <li class="twitter">
               <a href="https://twitter.com/kasoliman" target="_blank">
-                <img src="Images/landing-page/icon_twitterBlack.svg" alt="Twitter Icon">
+                <img src="Images/footer-section/icon_twitter.svg" alt="Twitter Icon">
               </a>
             </li>
             <li class="medium">
               <a href="https://medium.com/@kasoliman" target="_blank">
-                <img src="Images/landing-page/icon_mediumBlack.svg" alt="Medium Icon">
+                <img src="Images/footer-section/icon_medium.svg" alt="Medium Icon">
               </a>
             </li>
           </ul>

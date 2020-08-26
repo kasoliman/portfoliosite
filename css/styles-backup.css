@@ -1,0 +1,1386 @@
+
+/******************** LANDING PAGE STYLING ********************/
+/* Below styling is divided into sections as identified by
+their class names on HTML (index.html). Each section order
+below is as it appears in the same order within the landing
+page. */
+
+/****************BODY (LANDING PAGE)****************/
+.landing-body {
+  margin: 0px;
+  height: 4490px;
+}
+
+
+
+/****************COMMON STYLING ACROSS LANDING PAGE****************/
+/* Styling for the sub headings/labels
+that appear across the page
+(e.g. "Quick Snapshot", "Featured Work")
+*/
+.landing-label {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  color: #E13389;
+}
+
+/* Styling for the font/text that
+appears within the CTA buttons
+across the page */
+.cta-button {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the CTA buttons
+across the page */
+.case-button {
+  height: 44px;
+  width: 239px;
+  border-radius: 5px;
+  background-color: #E13389;
+  margin-right: 0px;
+}
+
+
+
+/****************HEADER SECTION STYLING****************/
+/* Positioning the container
+of this section*/
+header {
+  position: relative;
+  height: 113px;
+}
+
+.nav-header {
+  position: absolute;
+  height: 113px;
+  width: 1116px;
+  left: 343px;
+}
+
+/* positioning of my logo */
+.logo {
+  position: absolute;
+  left: 0px;
+  top: 49px;
+  height: auto;
+}
+
+.nav-items {
+  position: absolute;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  height: 30px;
+  right: 0px;
+  bottom: 25px;
+}
+
+/* styling and positioning the
+navigation list */
+.nav-items li {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  margin-right: 41px;
+}
+
+/* changing the styling of the a tags;
+removing their underline default styling.
+Also, turning them to color black*/
+.nav-items a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* exploring the idea of creating a
+hover styling. For now, this has been opted out
+but will come to revisit it */
+/*
+.nav-items a:hover {
+  background-color: #E13389;
+  color: white;
+}
+*/
+
+/* All nav items have the same styling
+with the exception of the "contact button"*/
+.nav-items .contact-button {
+  height: 30px;
+  width: 121px;
+  border-radius: 5px;
+  background-color: #E13389;
+  margin-right: 0px;
+}
+
+/* All nav items have the same styling
+with the exception of the "contact button"*/
+.nav-items .contact-button a {
+  color: #ffffff;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/****************FOLD AREA STYLING (class: hero-container)****************/
+/* Positioning the container
+of this section*/
+.hero-container {
+  position: relative;
+  width: 1116px;
+  left: 343px;
+  margin-top: 214px;
+}
+
+.hero-container h1 {
+  font-size: 75px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 88px;
+  margin: 0px;
+}
+
+.hero-container .headline-title-emphasis {
+  color: #E13389;
+}
+
+.hero-container h2 {
+  font-size: 50px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 75px;
+  margin: 85px 0px 0px 0px;
+}
+
+
+
+/*****************BLACK BOX POSITIONING & STYLING*****************/
+/* Positioning and styling
+the black box that appears
+to the left of the fold area
+headings */
+.black-box {
+  background-color: #000000;
+  height: 246px;
+  width: 73px;
+  position: absolute;
+  top: 327px;
+}
+
+
+
+/****************QUICK SNAPSHOT (class: quick-snapshot-container)****************/
+/* Positioning the container
+of this section*/
+.quick-snapshot-container {
+  position: relative;
+  left: 343px;
+  width: 1116px;
+  height: 547px;
+  margin-top: 245px;
+}
+
+.personal-image {
+  display: inline-block;
+  }
+
+.snapshot-text {
+  display: inline-block;
+  position: absolute;
+  left: 537px;
+}
+
+.snapshot-skills {
+  list-style: none;
+  list-style-position: outside;
+  margin: 0px;
+  padding: 0px;
+}
+
+.snapshot-skills-heading {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 27px;
+}
+
+.snapshot-skills-subheading {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 11px;
+}
+
+.snapshot-skills-text {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  color: #000000;
+  margin-top: 11px;
+}
+
+.snapshot-description h3 {
+  font-size: 26px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  color: #000000;
+  margin-top: 70px;
+  margin-bottom: 0px;
+}
+
+
+
+/****************FEATURED WORK (class: featured-work-container)****************/
+/* The divider line that
+appears right above the
+featured work section */
+hr {
+  position: relative;
+  left: 343px;
+  width: 1116px;
+  margin: 70px 0px 29px 0px;
+}
+
+/* Positioning the container
+of this section*/
+.featured-work-container {
+  position: relative;
+  left: 343px;
+  width: 1116px;
+}
+
+.featured-work-container h5 {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  color: #E13389;
+  margin: 0px 0px 68px 0px;
+}
+
+/* Styling for sections/text
+that applies to all cases */
+.case-mockup-brief h4 {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
+  margin: 35px 0px 68px 0px;
+}
+
+/* styling and positioning
+of the FIRST featured case */
+.case-image-one {
+  display: inline-block;
+  position: relative;
+  right: 60px;
+  bottom: 20px;
+}
+
+.case-mockup-description {
+  display: inline-block;
+  position: absolute;
+  left: 685px;
+}
+
+/* styling and positioning
+of the SECOND featured case */
+.case-two {
+  margin-top: 113px;
+}
+.case-image-two {
+  display: inline-block;
+  position: relative;
+  left: 576px;
+}
+
+.case-two .case-mockup-description {
+  left: 0px;
+}
+
+.case-two h3 {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 41px;
+  color: #A64D79;
+  margin: 0px;
+}
+
+
+
+/****************GET IN TOUCH SECTION (class: get-intouch-wrapper)****************/
+/* Positioning the container
+of this section*/
+.get-intouch-wrapper {
+  position: relative;
+  height: 550px;
+  background-color: #F8FAFA;
+  margin-top: 211px;
+}
+
+.get-intouch-container {
+  width: 1116px;
+  position: absolute;
+  left: 343px;
+  margin-top: 50px;
+}
+
+.get-intouch-container h1 {
+  font-size: 75px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 113px;
+  color: #000000;
+  margin: 0px 0px 41px 0px;
+}
+
+.mission-statement h3 {
+  font-size: 26px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 39px;
+  color: #000000;
+}
+
+.connect-with-me h3 {
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+
+
+/****************ILLUSTRATION SECTION (class: illustration-toronto)****************/
+/* Positioning the illustration
+of the landing page */
+.illustration-toronto {
+  position: relative;
+  mix-blend-mode: darken;
+  left: 163px;
+  bottom: 110px;
+}
+
+
+
+/****************FOOTER SECTION (class: footer-wrapper)****************/
+/* Positioning the container
+of this section*/
+.footer-wrapper {
+  position: relative;
+  bottom: 194px;
+  height: 402px;
+  background-color: #000000;
+}
+
+/* Positioning the sub-container
+of this section*/
+.footer-container {
+  position: absolute;
+  left: 733px;
+  text-align: center;
+  margin-top: 69px;
+}
+
+.footer-heading {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+/* styling and positioning
+the social links buttons */
+.social-links ul {
+  padding: 0px;
+  margin: 54px 0px 0px 0px;
+}
+
+.social-links li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.social-links .linkedin, .social-links .twitter {
+  margin-right: 50px;
+}
+
+/* styling and positioning
+the copyright section */
+.copyright {
+  position: relative;
+}
+
+.copyright h5 {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  color: #ffffff;
+  margin: 118px 0px 0px 0px;
+}
+
+
+
+/******************** CASE STUDY PAGE STYLING ********************/
+/* Below styling is divided into sections as identified by
+their class names on HTML (index.html). Each section order
+below is as it appears in the same order within the landing
+page. */
+
+/****************BODY (LANDING PAGE)****************/
+.case-body {
+  margin: 0px;
+  height: 21423px;
+}
+
+/****************COMMON STYLING ACROSS CASE ONE PAGE****************/
+/* Styling for the font/text that
+appears within the CTA buttons
+across the page */
+.cta-button {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the CTA buttons
+across the case study page */
+.case-study-button, .desktop-prototype-button, .mobile-prototype-button {
+  height: 44px;
+  width: 275px;
+  border-radius: 5px;
+  list-style: none;
+  background-color: #E13389;
+  margin-right: 0px;
+}
+
+/* Styling for the font/text that
+appears within the CTA buttons
+across the case study page */
+.case-study-button a, .desktop-prototype-button a, .mobile-prototype-button a {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  text-decoration: none;
+  color: #ffffff;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+/* Styling for the large section
+headlines of the case study */
+.section-heading h2 {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 41px;
+  margin: 0px;
+}
+
+.section-box h3, .solution-box h3 {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #E13389;
+}
+
+.section-box p, .solution-box p, .section-heading p, .paragraph-description p{
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 42px;
+}
+
+.highlights-title, .features-title, .horizontal-section-title, .concluding-section-title {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 41px;
+  color: #000000;
+}
+
+.deliverables-points h3, .features-points h3, .points-description h3 {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px;
+  color: #000000;
+}
+
+.paragraph-description {
+  width: 540px;
+}
+
+.horizontal-section-wrapper {
+  position: relative;
+  background-color: #F7F9FF;
+  margin-top: 97px;
+  width: 100%;
+}
+
+.emphasis-bold {
+  font-weight: 700;
+}
+
+
+
+/****************HEADER SECTION STYLING****************/
+.header-case {
+  position: relative;
+  height: 167px;
+}
+
+.nav-header-case {
+  position: absolute;
+  height: 167px;
+  width: 1116px;
+  left: 343px;
+}
+
+.nav-header-case .nav-items {
+  position: absolute;
+  right: 0px;
+  top: 58px;
+}
+
+.case-sections {
+  position: absolute;
+  bottom: 13px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.case-sections li {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  margin-right: 34px;
+}
+
+.case-sections a {
+  text-decoration: none;
+  color: #000000;
+}
+
+
+
+/****************HERO CASE STYLING (class: hero-case-container)****************/
+/* Positioning the container
+of this section*/
+.hero-case-container {
+  position: relative;
+  margin-top: 87px;
+}
+
+.case-brief-wrapper {
+  position: relative;
+  left: 343px;
+  height: 656px;
+}
+
+.case-brief {
+  display: inline-block;
+}
+
+.case-brief h4 {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+  color: #000000;
+  margin: 0px;
+}
+
+.case-headline-text{
+  margin-top: 56px;
+}
+
+.desktop-prototype-button {
+  margin-top: 125px;
+}
+
+.mobile-prototype-button {
+  margin-top: 13px;
+}
+
+.case-brief ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.case-hero-image {
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  left: 511px;
+}
+
+.headline-images {
+  margin-top: 34px;
+}
+
+
+
+/****************SNAPSHOT AREA STYLING (class: case-snapshot-container)****************/
+/* Positioning the container
+of this section*/
+.case-snapshot-container {
+  position: relative;
+  width: 1116px;
+  left: 343px;
+}
+
+.case-final-mockup {
+  position: relative;
+  right: 50px;
+  top: 15px;
+  display: inline-block;
+}
+
+
+.snapshot-line {
+  width: 126px;
+  height: 0px;
+  border: 1.5px solid #E13389;
+  position: absolute;
+  left: 641px;
+  top: 45px;
+  display: inline-block;
+}
+
+
+.case-roles-deliverables {
+  position: absolute;
+  left: 641px;
+  top: 103px;
+  display: inline-block;
+  list-style: none;
+  list-style-position: outside;
+  margin: 0px;
+  padding: 0px;
+}
+
+.small-label, .small-label-roles {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
+  }
+
+.small-label {
+  margin-top: 30px;
+}
+
+.roles-text, .deliverables-text, .toolkits-text, .timeline-text {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  margin-top: 11px;
+}
+
+
+
+/**************** DIVIDER ILLUSTRATION STYLING (class: section-divider)****************/
+.section-divider {
+  position: relative;
+  left: 145px;
+  width: 1466px;
+  margin-bottom: 60px;
+  mix-blend-mode: darken;
+}
+
+
+
+/****************CASE OVERVIEW STYLING (class: case-overview-container)****************/
+/* Positioning the container
+of this section*/
+.case-overview-container {
+  position: relative;
+  width: 1116px;
+  left: 343px;
+}
+
+.section-heading {
+  position: relative;
+}
+
+.summary-wrapper {
+  position: relative;
+  margin-top: 125px;
+  height: 515px;
+}
+
+.section-box, .solution-box {
+  display: inline-block;
+  width: 540px;
+}
+
+.solution-box {
+  position: absolute;
+  left: 588px;
+}
+
+.deliverables-wrapper {
+  position: absolute;
+  top: 77px;
+  display: inline-block;
+  margin-left: 30px;
+  width: 540px;
+  height: 389px;
+  background-color: #F9F8FA;
+}
+
+.deliverables-box {
+  position: absolute;
+  left: 43px;
+  top: 27px;
+  width: 454px;
+  height: 335px;
+}
+
+.deliverables-points {
+  margin-top: 40px;
+
+}
+
+.problem-solution-wrapper {
+  position: relative;
+  margin-top: 167px;
+}
+
+
+.overview-mockup {
+  position: relative;
+  top: 72px;
+  display: flex;
+  justify-content: center;
+}
+
+/****************CASE RESEARCH STYLING (class: case-research-container)****************/
+/* Positioning the container
+of this section*/
+.case-research-container {
+  position: relative;
+}
+
+.case-research-container .section-heading {
+  position: relative;
+  width: 1116px;
+  left: 343px;
+}
+
+.testing-assumptions-wrapper {
+  position: relative;
+  margin-top: 115px;
+  width: 1116px;
+  left: 343px;
+}
+
+.survey-screenshot {
+  position: absolute;
+  top: 66px;
+  left: 581px;
+  display: inline-block;
+}
+
+.case-research-container .horizontal-section-wrapper {
+  height: 459px;
+}
+
+.features-box {
+  position: absolute;
+  margin-top: 45px;
+}
+
+.features-title {
+  position: relative;
+  left: 642px;
+}
+
+.features-points {
+  position: relative;
+  margin-top: 34px;
+  left: 351px;
+
+}
+
+.features-list {
+  position: relative;
+  margin-top: 10px;
+}
+
+.features-list li {
+  font-size: 19px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  list-style: none;
+  margin-bottom: 19px;
+}
+
+.features-list li::before {
+  color: #E13389;
+  content: "\25FC";
+
+}
+
+.competition-wrapper {
+  position: relative;
+  left: 351px;
+  width: 1116px;
+  margin-top: 97px;
+}
+
+.points-description, .paragraph-description {
+  position: relative;
+  width: 540px;
+}
+
+.points-description {
+  margin-top: 42px;
+}
+
+.research-sketches-wrapper {
+  position: relative;
+  left: 351px;
+  width: 1116px;
+  height: 639px;
+  margin-top: 37px;
+}
+
+.sketch-titles li {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  list-style: none;
+  display: inline-block;
+}
+
+.saving-item, .organize-item {
+  margin-left: 160px;
+}
+
+.sketch-titles {
+  position: relative;
+  right: 20px;
+}
+
+.sketch-titles ul {
+  text-align: center;
+}
+
+.research-sketches {
+  position: relative;
+  margin-top: 46px;
+  left: 58px;
+}
+
+.defining-users-wrapper {
+  position: relative;
+  left: 351px;
+  width: 1116px;
+  height: 639px;
+  margin-top: 131px;
+}
+
+.defining-users-wrapper p {
+  width: 1116px;
+}
+
+.user-personas-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.user-persona-one, .user-persona-two {
+  margin-top: 84px;
+  text-align: center;
+}
+
+.user-persona-two {
+  margin-left: 136px;
+}
+.persona-image {
+  margin-bottom: 71px;
+}
+
+
+
+/****************CASE INFORMATION ARCHITECTURE STYLING (class: case-architecture-container)****************/
+/* Positioning the container
+of this section*/
+.case-architecture-container {
+  position: relative;
+}
+
+.case-architecture-container .section-heading, .case-architecture-container .user-flows-wrapper,
+.wireframe-sketches-wrapper, .wireframe-digital-wrapper, .usability-testing-wrapper  {
+  position: relative;
+  width: 1116px;
+  left: 343px;
+}
+
+.user-flows-wrapper {
+  position: relative;
+  margin-top: 125px;
+}
+
+.user-flows-wrapper .section-box {
+  position: absolute;
+}
+
+.user-flows-wrapper .user-flow {
+  left: 563.75px;
+}
+
+.user-flows-wrapper, .user-flow {
+  display: inline-block;
+}
+
+.user-flow {
+  position: relative;
+  margin-top: 75px;
+}
+
+.sketch-screenshot-one {
+  margin-top: 57px;
+}
+
+.wireframe-sketches-wrapper .section-box {
+  position: relative;
+}
+
+.sketch-screenshot-two {
+  margin-bottom: 7px;
+}
+
+.sketch-screenshot-two, .sketch-screenshot-three {
+  margin-left: 134px;
+}
+
+.wireframe-digital-wrapper {
+  margin-top: 100px;
+}
+
+.wireframe-digital-wrapper .section-box {
+  position: relative;
+  display: inline-block;
+}
+
+.wireframes-images-one {
+  margin-top: 48px;
+}
+
+.wireframes-images-two {
+  display: inline-block;
+  position: absolute;
+  left: 680px;
+}
+
+.usability-testing-wrapper {
+  margin-top: 104px;
+}
+
+.usability-testing-wrapper .tasks-wrapper {
+  display: inline-block;
+  position: absolute;
+  left: 647px;
+  top: 60px;
+}
+
+.tasks-points {
+  margin-top: 25px;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 46px;
+  color: #000000;
+  text-align: center;
+}
+
+.case-architecture-container .horizontal-section-wrapper {
+  height: 529px;
+  display: flex;
+  justify-content: center;
+}
+
+.prototype-changes-box {
+  position: absolute;
+  width: 760px;
+  margin: 33px 0px 33px 0px;
+}
+
+.prototype-changes-box .horizontal-section-title {
+  text-align: center;
+}
+
+.changes-list li {
+  font-size: 19px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  list-style: none;
+  margin-top: 34px;
+}
+
+.content-strategy-wrapper {
+  position: relative;
+  width: 1116px;
+  left: 343px;
+  margin-top: 62px;
+}
+
+.content-strategy-wrapper .section-box {
+  position: absolute;
+}
+
+.content-strategy-wrapper .content-strategy-image {
+  display: inline-block;
+  position: relative;
+  left: 635px;
+}
+
+
+
+/****************CASE VISUAL DESIGN STYLING (class: visual-design-container)****************/
+/* Positioning the container
+of this section*/
+.visual-design-container {
+  position: relative;
+}
+
+.visual-design-container .section-heading, .brand-value-wrapper,
+.style-guide-wrapper, .hifi-mockups-wrapper, .testing-mockups-wrapper,
+.style-guide-wrapper {
+  position: relative;
+  width: 1116px;
+  left: 343px;
+}
+
+.airbox-logo-image {
+  display: flex;
+  justify-content: center;
+  margin: 102px 0px 80px 0px;
+}
+
+.brand-value-wrapper {
+  height: 1441px;
+}
+
+.brand-value-wrapper .section-box, .logo-sketches-wrapper {
+  display: inline-block;
+}
+
+.logo-sketches-wrapper {
+  position: absolute;
+  left: 665px;
+  margin-top: 70px;
+}
+
+.logo-sketch-one, .logo-sketch-two {
+  margin-bottom: 100px;
+}
+
+.visual-design-container .horizontal-section-wrapper {
+  position: relative;
+  height: 539px;
+  display: flex;
+  justify-content: center;
+}
+
+.branding-list li {
+  font-size: 19px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  list-style: none;
+  margin-top: 34px;
+}
+
+.branding-elements-box {
+  position: absolute;
+  width: 760px;
+  margin: 38px 0px 38px 0px;
+}
+
+.branding-elements-box .horizontal-section-title {
+  text-align: center;
+}
+
+.style-guide-wrapper .case-study-button {
+  margin-top: 78px;
+}
+
+.style-guide-wrapper .section-box {
+  position: absolute;
+}
+
+.style-guide-images-wrapper {
+  display: inline-block;
+  position: relative;
+  left: 610px;
+  margin-top: 42px;
+}
+
+.hifi-mockups-wrapper {
+  margin-top: 74px;
+}
+
+.hifi-mockups-wrapper .section-box {
+  width: 1116px;
+  margin-bottom: 74px;
+}
+
+.hifi-mockup-image {
+  text-align: center;
+  margin-bottom: 86px;
+}
+
+.paragraph-column-one, .paragraph-column-two {
+  display: inline-block;
+  position: relative;
+}
+
+.paragraph-column-two {
+  left: 570px;
+  position: absolute;
+  top: 67px;
+}
+
+.paragraph-column-two p {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.additional-improvements-box {
+  position: absolute;
+  width: 760px;
+  margin-top: 35px;
+}
+
+.additional-improvements-box h2 {
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.improvements-list li {
+  font-size: 19px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  list-style: none;
+  margin-top: 22px;
+}
+
+.concluding-note {
+  position: relative;
+  width: 1116px;
+  height: 394px;
+  left: 343px;
+  text-align: center;
+}
+
+.concluding-note p {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  color: #000000;
+  position: relative;
+  top: 135px;
+}
+
+
+
+/****************CASE LESSONS LEARNED STYLING (class: lessons-learned-container)****************/
+/* Positioning the container
+of this section*/
+.lessons-learned-container {
+  position: relative;
+  background-color: rgba(135, 135, 135, 0.1);
+  width: 100%;
+  height: 931px;
+}
+
+.concluding-section-wrapper {
+  position: absolute;
+  width: 1116px;
+  height: 831px;
+  left: 343px;
+  margin: 50px 0px 50px 0px;
+}
+
+.concluding-section-title {
+  text-align: center;
+  margin-bottom: 91px;
+}
+
+.column-one, .column-two {
+  position: absolute;
+  width: 540px;
+  display: inline-block;
+}
+
+.column-two {
+  left: 570px;
+}
+
+.column-one p, .column-two p {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 35px;
+  color: #000000;
+}
+
+.lessons-learned-buttons {
+  width: 1116px;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.lessons-learned-buttons li {
+  display: inline-block;
+  margin-top: 0px;
+}
+
+.lessons-learned-buttons .desktop-prototype-button {
+  margin-right: 112px;
+}
+
+
+
+/****************CASE WORKING TOGETHER STYLING (class: working-together-container)****************/
+/* Positioning the container
+of this section*/
+.working-together-container {
+  position: relative;
+}
+
+.working-together-wrapper {
+  position: relative;
+  width: 1116px;
+  left: 343px;
+  display: flex;
+  justify-content: center;
+  top: 148px;
+}
+
+.working-together-title h3 {
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  color: #000000;
+  height: 29px;
+  }
+
+.working-together-title {
+  position: absolute;
+}
+
+.working-together-wrapper .case-button {
+  margin-top: 65px;
+}
+
+.illustration-toronto-fade {
+  position: absolute;
+  left: 213px;
+  mix-blend-mode: darken;
+  top: 10px;
+}
+
+/****************CASE FOOTER STYLING (class: footer-wrapper)****************/
+/* Positioning the container
+of this section*/
+.case-body .footer-wrapper {
+  position: relative;
+  top: 400px;
+}

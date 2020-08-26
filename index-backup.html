@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Karim Soliman | UX & Product Designer</title>
+    <!-- link to style sheet to reset browser defaults -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- link to the Bootstrap CDN URL -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- link to my style sheet-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- link to Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!--link to google fonts in order to use my lato thin, light, regular, and bold fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <!--link to Adobe fonts (typekit) in order to use my lato medium font (not available on Google Fonts)-->
+    <link rel="stylesheet" href="https://use.typekit.net/xeq7kgq.css">
+    <!--link to google fonts in order to use my roboto regular, medium, and bold fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- a favicon for my portfolio site (work in progress logo)-->
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body class="landing-body">
+    <!-- Navigation bar, includes: logo and nav buttons -->
+      <header>
+        <nav class="nav-header">
+          <img class="logo" src="Images/landing-page/logoKarimSoliman2.svg" alt="Karim's Logo">
+          <ul class="nav-items">
+            <li>
+              <!-- "Work" button links to inner page section (found below) -->
+              <a href="index.html#work">WORK</a>
+            </li>
+            <li>
+              <a href="#">WRITING</a>
+            </li>
+            <li >
+              <a href="Documents/karim-soliman-resume.pdf">RESUME</a>
+            </li>
+            <li>
+              <a href="#">ABOUT ME</a>
+            </li>
+            <li class="contact-button">
+              <a href="#">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    <!-- Hero section of my landing page -->
+    <section class="hero-container">
+      <!-- Main heading: title + location -->
+      <h1 class="headline-title">Hi. I'm Karim<br/>a <span class="headline-title-emphasis">UX.UI | Product Designer</span><br/>-based in Toronto!</h1>
+      <!-- sub heading: my main three skills -->
+      <h2 class="headline-skills">Visual & Branding Communications<br/>Interaction Design<br/>UX Writing</h2>
+    </section>
+    <!-- Quick Snapshot section, encloses: landing page personal image, skills, and description -->
+    <section class="quick-snapshot-container">
+      <!-- This div only includes personal image -->
+      <div class="personal-image">
+        <img src="Images/landing-page/myselfColor.jpg" alt="Karim's Photo">
+      </div>
+      <!-- This div only includes text of "Quick Snapshot" section,
+      includes two inner sections: "snapshot-skills" and "snapshot-description" -->
+      <div class="snapshot-text">
+        <ul class="snapshot-skills">
+          <li class="landing-label">QUICK SNAPSHOT</li>
+          <li class="snapshot-skills-heading">What is it that I focus on</li>
+          <li class="snapshot-skills-text">UX/UI & Product Design // Interaction Design //<br/>Branding+Communicatio Design // UX Writing</li>
+          <li class="snapshot-skills-heading">My Arsenal of Toolkits</li>
+          <li class="snapshot-skills-text">Adobe XD, Figma, Sketch, InVision, JavaScript, HTML/CSS, Github,<br/>Illustrator, Photoshop, Lightroom</li>
+          <li class="snapshot-skills-subheading">(open to and learning other tools)</li>
+          <li class="snapshot-skills-heading">How I have built my skills</li>
+          <li class="snapshot-skills-text">UX/UI Design & Front-End Development //<br/>MSc. International Banking & Finance<br/>B.A. Economics, with Business and International Relations</li>
+        </ul>
+        <div class="snapshot-description">
+          <h3>With a business and creative background, my avid<br/>interest for creating solutions to both these<br/>spectrums, places me at the intersection of<br/>business and human-centered design.</h3>
+        </div>
+      </div>
+    </section>
+    <!-- A divider line -->
+    <hr>
+    <!-- Featured portfolio work section -->
+    <section class="featured-work-container" id="work">
+      <!-- "Featured Work" section title -->
+      <div class="landing-label">
+        <h5>FEATURED WORK</h5>
+      </div>
+      <!-- Portfolio case one section, includes: mockup image, case logo, brief text, and CTA button -->
+      <div class="case-one">
+        <!-- Portfolio case one mockup/display image -->
+        <div class="case-image-one">
+          <img src="Images/landing-page/airbox-case-show.png" alt="Airbox Mockup Picture">
+        </div>
+        <div class="case-mockup-description">
+          <div class="case-mockup-brief">
+            <img src="Images/landing-page/airboxLogo.svg" alt="Airbox Logo">
+            <h4>A progressive cloud storage web app, optimized<br/>for desktop and mobile performance. Airbox is<br/>focused on delivering highly-polished and<br/>personalized user experiences. </h4>
+          </div>
+          <div class="case-button">
+            <a class="cta-button" href="project.html">VIEW CASE STUDY</a>
+          </div>
+        </div>
+      </div>
+      <!-- (work in progress) Portfolio case two section, includes: mockup image, case logo, brief text, and CTA button -->
+      <div class="case-two">
+        <div class="case-image-two">
+          <img src="Images/landing-page/caseStudyTwoPic.jpg" alt="Case Study Two Picture">
+        </div>
+        <div class="case-mockup-description">
+          <div class="case-mockup-brief ">
+            <h3>Case 2</h3>
+            <h4>Sed velit lectus, porttitor eu convallis sit amet,<br/>semper eget mauris. Integer in </h4>
+          </div>
+          <div class="case-button">
+            <a class="cta-button" href="#">VIEW CASE STUDY</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Get in touch section -->
+    <section class="get-intouch-wrapper">
+      <!-- This container includes: section title, statements, and CTA button -->
+      <div class="get-intouch-container">
+        <div class="headline-title">
+          <h1>Let's Design</h1>
+        </div>
+        <div class="mission-statement">
+          <h3>Designer of integrated experiences! I believe wholeheartedly in<br/>the principles of design in solving for users’ challenges and<br/>delivering their aspirations.</h3>
+        </div>
+        <div class="connect-with-me">
+          <h3>Connect with me if you’re interested in building unique and impactful<br/>partnerships.</h3>
+        </div>
+        <!-- work in progress for my contact link -->
+        <div class="case-button">
+          <a class="cta-button" href="#">GET IN TOUCH</a>
+        </div>
+      </div>
+    </section>
+    <!-- Illustration of Toronto -->
+    <section class="illustration-toronto">
+      <img src="Images/landing-page/torontocity.svg" alt="Toronto City Illustration">
+    </section>
+    <!-- black box on left pane -->
+    <div class="black-box">
+    </div>
+    <!-- Footer section -->
+    <footer class="footer-wrapper">
+      <div class="footer-container">
+        <h1 class="footer-heading">Feel free to connect with me</h1>
+        <div class="social-links">
+          <ul>
+            <li class="linkedin">
+              <a href="https://www.linkedin.com/in/kaysoliman/" target="_blank">
+                <img src="Images/footer-section/icon_linkedin.svg" alt="Linkedin Icon">
+              </a>
+            </li>
+            <li class="twitter">
+              <a href="https://twitter.com/kasoliman" target="_blank">
+                <img src="Images/footer-section/icon_twitter.svg" alt="Twitter Icon">
+              </a>
+            </li>
+            <li class="medium">
+              <a href="https://medium.com/@kasoliman" target="_blank">
+                <img src="Images/footer-section/icon_medium.svg" alt="Medium Icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="copyright">
+            <h5>Designed + Developed by Karim Soliman © 2020</h5>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

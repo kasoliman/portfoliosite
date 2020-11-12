@@ -11,7 +11,10 @@ page. */
   height: 4490px;
 }
 
-
+/* scrolling beahvior  */
+html {
+  scroll-behavior: smooth;
+}
 
 /****************COMMON STYLING ACROSS LANDING PAGE****************/
 /* Styling for the sub headings/labels
@@ -55,15 +58,44 @@ across the page */
 }
 
 .container-fluid {
-  padding: 0% 24% 0% 17.85%;
+  padding: 0% 12% 0% 12%;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 366px) {
+  .container-fluid {
+    padding: 0% 4%;
+  }
+}
+
+@media screen and (min-width: 750px) {
   .container-fluid {
     padding: 0% 6% ;
   }
 }
 
+@media screen and (min-width: 1280px){
+  .container-fluid {
+    padding: 0% 7% 0% 7%;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .container-fluid {
+    padding: 0% 10% 0% 10%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container-fluid {
+    padding: 0% 12% 0% 12%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container-fluid {
+    padding: 0% 24% 0% 18.85%;
+  }
+}
 
 
 /****************HEADER SECTION STYLING****************/
@@ -176,6 +208,7 @@ Also, turning them to color black*/
   align-items: center;
 }
 
+
 /* exploring the idea of creating a
 hover styling. For now, this has been opted out
 but will come to revisit it */
@@ -273,7 +306,7 @@ headings */
   top: 327px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .black-box {
     height: 0;
     width: 0;
@@ -353,7 +386,7 @@ of this section*/
   margin-bottom: 0px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .quick-snapshot-container {
     margin-top: 131px;
   }
@@ -497,7 +530,7 @@ of the SECOND featured case */
   .case-one .case-button {
     position: absolute;
     bottom: 340px;
-    left: 717px;
+    left: 706px;
   }
 
   .case-two .case-button {
@@ -554,7 +587,7 @@ of this section*/
   color: #000000;
   /* width: 750px; */
   /* width: 67.175%; */
-  padding: 0 35% 0% 0%;
+  /* padding: 0 35% 0% 0%; */
 }
 
 .connect-with-me h3 {
@@ -566,14 +599,14 @@ of this section*/
   color: #000000;
   /* width: 750px; */
   /* width: 67.175%; */
-  padding: 0 35% 0% 0%;
+  /* padding: 0 35% 0% 0%; */
   margin-bottom: 40px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .get-intouch-wrapper {
-    height: 736px;
-    width: 530px;
+    /* height: 736px; */
+    /* width: 530px; */
     margin-top: 149px;
   }
 
@@ -624,7 +657,17 @@ of the landing page */
 
 }
 
+@media screen and (max-width: 768px) {
+  .illustration-toronto {
+    right: 450px;
+  }
+}
+
 @media screen and (max-width: 750px) {
+  .illustration-toronto {
+    right: 180px;
+  }
+
   .illustration-toronto img {
     width: 700px;
     position: absolute;
@@ -642,7 +685,7 @@ of this section*/
   position: absolute;
   left: 0px;
   right: 0px;
-  height: 400px;
+  height: 453px;
   background-color: #000000;
 }
 
@@ -651,9 +694,9 @@ of this section*/
 .footer-container {
   /* position: relative;
   left: 733px;
-  text-align: center;*/
+  text-align: center; */
   margin-top: 69px;
-  padding: 0% 24% 0% 17.85%;
+  /* padding: 0% 24% 0% 17.85%; */
   text-align: center;
 }
 
@@ -699,10 +742,16 @@ the copyright section */
   margin: 118px 0px 0px 0px;
 }
 
+@media screen and (max-width: 768px) {
+  .footer-container {
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .footer-wrapper {
     margin-top: 885px;
-    width: 530px;
+    /* width: 530px; */
   }
 
   .footer-container {
@@ -870,7 +919,7 @@ headlines of the case study */
 }
 
 /* change display of the "case nav bar sections" */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .case-sections {
     display: none;
   }
@@ -937,6 +986,10 @@ of this section*/
   display: none;
 }
 
+.headlie-images-tablet {
+  display: none;
+}
+
 @media screen and (min-width: 1280px) {
   .case-headline-text {
     position: absolute;
@@ -967,7 +1020,7 @@ of this section*/
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .case-hero-image img {
     position: relative;
     width: 411px;
@@ -983,11 +1036,15 @@ of this section*/
     display: none;
   }
 
+  .headline-images-mobile {
+    display: none;
+  }
+
   .case-hero-buttons .desktop-prototype-button {
     margin-top: 48px;
   }
 
-  .headline-images-mobile {
+  /* .headline-images-mobile {
     display: block;
     position: absolute;
     left: 0px;
@@ -996,6 +1053,21 @@ of this section*/
   }
 
   .headline-images-mobile img {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 500px;
+  } */
+
+  .headlie-images-tablet {
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 1350px;
+  }
+
+  .headline-images-tablet img {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -1016,9 +1088,9 @@ of this section*/
 
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .case-snapshot-container {
-    top: 1050px;
+    top: 1000px;
   }
 
   .case-final-mockup img {
@@ -1132,15 +1204,15 @@ and positioning */
   mix-blend-mode: darken;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .section-divider-one {
     top: 3080px;
-    left: -52px;
+    left: 30px;
     right: 0px;
   }
 
   .section-divider-one img {
-    width: 610px;
+    width: 950px;
   }
 }
 
@@ -1157,15 +1229,15 @@ and positioning */
   mix-blend-mode: darken;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .section-divider-two {
-    top: 6500px;
+    top: 6350px;
     left: -52px;
     right: 0px;
   }
 
   .section-divider-two img {
-    width: 610px;
+    width: 950px;
   }
 }
 
@@ -1183,16 +1255,16 @@ and positioning */
   mix-blend-mode: darken;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .section-divider-three {
-    top: 12668px;
+    top: 12100px;
     margin-top: 117px;
     left: -52px;
     right: 0px;
   }
 
   .section-divider-three img {
-    width: 610px;
+    width: 950px;
   }
 }
 
@@ -1210,16 +1282,16 @@ and positioning */
   mix-blend-mode: darken;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .section-divider-four {
-    top: 19650px;
+    top: 18430px;
     margin-top: 117px;
     left: -52px;
     right: 0px;
   }
 
   .section-divider-four img {
-    width: 610px;
+    width: 950px;
   }
 }
 
@@ -1259,7 +1331,7 @@ of this section*/
   justify-content: center;
 } */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .case-overview-container {
     top: 1370px;
   }
@@ -1271,7 +1343,7 @@ of this section*/
     display: inline-block;
     margin-left: 30px;
     padding: 0;
-    width: 440px;
+    width: 660px;
     height: 550px;
     background-color: #F9F8FA;
   }
@@ -1280,7 +1352,7 @@ of this section*/
     position: absolute;
     /* left: 33px; */
     top: 27px;
-    /* width: 454px; */
+    width: 600px;
     height: 335px;
   }
 
@@ -1305,7 +1377,11 @@ of this section*/
 
   .problem-solution-wrapper {
     position: relative;
-    top: 800px;
+    top: 700px;
+  }
+
+  .solution-box {
+    margin-top: 50px;
   }
 
   .overview-mockup {
@@ -1367,6 +1443,7 @@ of this section*/
 
   .problem-solution-wrapper {
     margin-top: 167px;
+    height: 352px;
   }
 
   .problem-box, .solution-box {
@@ -1379,7 +1456,8 @@ of this section*/
   }
 
   .solution-box {
-    bottom: 150px;
+    bottom: 352px;
+    left: 536px;
     margin-left: 48px;
     padding: 0;
   }
@@ -1555,7 +1633,7 @@ of this section*/
   margin-bottom: 71px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .research-sketches-wrapper {
     display: none;
   }
@@ -1578,7 +1656,7 @@ of this section*/
 
   .horizontal-section-wrapper-one {
     position: absolute;
-    top: 8352px;
+    top: 7900px;
     height: 580px;
     width: 100%;
   }
@@ -1598,7 +1676,7 @@ of this section*/
   }
 
   .competition-wrapper {
-    top: 2236px;
+    top: 1950px;
     margin-top: 70px;
     left: 0px;
     right: 0px;
@@ -1613,7 +1691,7 @@ of this section*/
   }
 
   .sketch-onboarding, .sketch-saving, .sketch-organizing {
-    top: 1461px;
+    top: 1387px;
     text-align: center;
   }
 
@@ -1626,7 +1704,7 @@ of this section*/
   }
 
   .defining-users-wrapper {
-    top: 4732px;
+    top: 4320px;
     margin-top: 70px;
     left: 0px;
     right: 0px;
@@ -1639,6 +1717,12 @@ of this section*/
 
   .user-persona-one .case-study-button, .user-persona-two .case-study-button {
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-box-assumptions {
+    margin-top: 20px;
   }
 }
 
@@ -1865,7 +1949,7 @@ of this section*/
 } */
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 
   .case-architecture-container {
     position: relative;
@@ -1949,8 +2033,8 @@ of this section*/
   }
 
   .prototype-changes {
-    height: 798px;
-    top: 18000px;
+    /* height: 798px; */
+    top: 16895px;
     left: 0px;
     right: 0px;
     position: absolute;
@@ -2287,7 +2371,7 @@ of this section*/
   top: 135px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 
   .visual-design-container {
     position: relative;
@@ -2317,7 +2401,7 @@ of this section*/
 
   .logo-sketches-wrapper {
     left: 0;
-    top: 1300px;
+    top: 900px;
   }
 
   .logo-sketch-one, .logo-sketch-two, .logo-sketch-three {
@@ -2325,12 +2409,12 @@ of this section*/
   }
 
   .branding-elements {
-    top: 23080px;
-    height: 925px;
+    top: 22500px;
+    height: 700px;
   }
 
   .style-guide-wrapper {
-    margin-top: 2311px;
+    margin-top: 900px;
   }
 
   .horizontal-section-title, .branding-elements-points {
@@ -2358,12 +2442,12 @@ of this section*/
   }
 
   .style-guide-mobile {
-    margin-top: 350px;
+    margin-top: 250px;
     text-align: center;
   }
 
   .hifi-mockups-wrapper {
-    margin-top: 285px;
+    margin-top: 1100px;
   }
 
   .hifi-mockup-image {
@@ -2383,11 +2467,11 @@ of this section*/
     top: 0px;
     left: 0px;
     right: 0px;
-    margin-top: 413px;
+    margin-top: 350px;
   }
 
   .additional-improvements {
-    top: 26600px;
+    top: 24545px;
     height: 760px;
   }
 
@@ -2407,7 +2491,7 @@ of this section*/
     height: 294px;
     margin: 0;
     padding: 0% 6%;
-    top: 1176px;
+    top: 1300px;
     text-align: left;
   }
 
@@ -2454,7 +2538,7 @@ of this section*/
   position: absolute;
   width: 1116px;
   height: 831px;
-  left: 343px;
+  /* left: 343px; */
   margin: 50px 0px 50px 0px;
   padding: 0;
 }
@@ -2514,11 +2598,11 @@ of this section*/
 
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 
   .lessons-learned-container {
-    top: 27740px;
-    height: 1750px;
+    top: 25750px;
+    height: 1450px;
   }
 
   .concluding-section-wrapper {
@@ -2534,13 +2618,13 @@ of this section*/
 
   .column-two {
     left: 0;
-    top: 750px;
+    top: 550px;
   }
 
   .lessons-learned-buttons {
     right: 0px;
     left: 0px;
-    top: 1475px;
+    top: 1175px;
     margin-top: 75px;
     display: block;
     width: 100%;
@@ -2588,37 +2672,40 @@ of this section*/
 
 .illustration-toronto-fade {
   position: absolute;
-  left: 213px;
+  right: 400px;
   mix-blend-mode: darken;
   top: 10px;
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 
   .working-together-container {
-    top: 9548px;
+    top: 9450px;
   }
 
   .illustration-toronto-fade {
-    display: none;
-  }
-  
-  .illustration-toronto-fademobile {
+    /* display: none; */
     position: absolute;
+    top: 27200px;
+  }
+
+  .illustration-toronto-fademobile {
+    /* position: absolute;
     top: 29500px;
     padding: 0;
-    left: 0px;
+    left: 0px; */
     /* height: 427px; */
-    mix-blend-mode: darken;
+    /* mix-blend-mode: darken; */
+    display: none;
   }
 
   .working-together-wrapper .case-button {
     margin: 30px auto 0;
   }
 
-
 }
+
 
 @media screen and (min-width: 1280px) {
   .working-together-container {
@@ -2648,10 +2735,11 @@ of this section*/
 /* Positioning the container
 of this section*/
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 
   .case-body .footer-wrapper {
-    top: 28980px;
+    top: 27700px;
+    margin-top: 0px;
   }
 
 }

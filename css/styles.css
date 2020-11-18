@@ -220,7 +220,7 @@ headings */
   display: none;
 }
 
-@media screen and (min-width: 751px) {
+@media screen and (min-width: 1280px) {
   .black-box {
     display: block;
     background-color: #000000;
@@ -670,10 +670,11 @@ their class names on HTML (index.html). Each section order
 below is as it appears in the same order within the landing
 page. */
 
-/****************BODY (LANDING PAGE)****************/
+/****************BODY (CASE STUDY PAGE)****************/
 .case-body {
-  margin: 0px;
+  margin: 0 auto;
   /* height: 21423px; */
+  max-width: 1920px;
 }
 
 .case-body .container-fluid {
@@ -889,8 +890,6 @@ of this section*/
 
 .case-hero-image img {
   position: relative;
-  /* width: 411px;
-  height: 410px; */
   width: 100%;
   margin-top: 56px;
 }
@@ -925,6 +924,56 @@ of this section*/
 
 .headline-images-tablet {
   display: none;
+}
+
+/* Responsive section */
+@media screen and (min-width: 1280px) {
+  .case-headline-text {
+    position: absolute;
+    width: 470px;
+    margin-top: 134px;
+  }
+
+  .case-headline-text h4 {
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    color: #000000;
+    margin: 0px;
+  }
+
+  .case-hero-image {
+    position: absolute;
+    top: 25px;
+    left: 511px;
+  }
+
+  .case-hero-buttons {
+    position: absolute;
+    top: 352px;
+    width: 470px;
+  }
+
+  .headline-images-mobile, .headline-images-tablet {
+    display: none;
+  }
+
+  .headline-images {
+    display: block;
+    position: absolute;
+    top: 1078px;
+    left: 0px;
+    right: 0px;
+    margin: 34px auto 0;
+    max-width: 1920px;
+  }
+
+  .headline-images img {
+    margin: 0 auto;
+    width: 105%;
+  }
 }
 
 /****************SNAPSHOT AREA STYLING (class: case-snapshot-container)****************/
@@ -969,6 +1018,67 @@ of this section*/
 
 .small-label {
   margin-top: 30px;
+}
+
+/* Responsive section */
+@media screen and (min-width: 1280px) {
+  .case-snapshot-container {
+    position: relative;
+    top: 566px;
+  }
+
+  .case-final-mockup {
+    position: relative;
+    top: 15px;
+  }
+
+  .case-final-mockup img {
+    width: auto;
+  }
+
+  .snapshot-line {
+    width: 126px;
+    height: 0px;
+    border: 1.5px solid #E13389;
+    position: absolute;
+    left: 641px;
+    top: 45px;
+    display: inline-block;
+  }
+
+  .case-roles-deliverables {
+    position: absolute;
+    left: 641px;
+    top: 103px;
+    width: 408px;
+    display: inline-block;
+    list-style: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .small-label, .small-label-roles {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .roles-text, .deliverables-text, .toolkits-text, .timeline-text {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 11px;
+  }
+
+  .small-label {
+    margin-top: 30px;
+  }
 }
 
 /**************** DIVIDER(s) ILLUSTRATION STYLING (class: section-divider)****************/
@@ -1057,6 +1167,93 @@ and positioning */
   width: 100%;
 }
 
+/* Responsive section */
+@media screen and (min-width: 414px) {
+  .section-divider-four {
+    top: 21500px;
+  }
+}
+@media screen and (min-width: 750px) {
+  .section-divider-one {
+    position: absolute;
+    top: 3250px;
+  }
+
+  .section-divider-two {
+    top: 7200px;
+  }
+
+  .section-divider-four {
+    top: 20600px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-divider-one {
+    position: absolute;
+    width: 1466px;
+    top: 2163px;
+    left: 0px;
+    right: 0px;
+    padding: 0;
+    mix-blend-mode: darken;
+    max-width: 1920px;
+    margin: 0 auto 60px;
+  }
+
+  .section-divider-one img {
+    width: auto;
+  }
+
+  .section-divider-two {
+    position: absolute;
+    width: 1466px;
+    top: 4370px;
+    left: 0px;
+    right: 0px;
+    padding: 0;
+    mix-blend-mode: darken;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  .section-divider-two img {
+    width: auto;
+  }
+
+  .section-divider-three {
+    position: absolute;
+    width: 1466px;
+    top: 8985px;
+    left: 0px;
+    right: 0px;
+    padding: 0;
+    mix-blend-mode: darken;
+    max-width: 1920px;
+    margin: 124px auto 0;
+  }
+
+  .section-divider-three img {
+    width: auto;
+  }
+
+  .section-divider-four {
+    position: absolute;
+    width: 1466px;
+    top: 14400px;
+    left: 0px;
+    right: 0px;
+    padding: 0;
+    mix-blend-mode: darken;
+    max-width: 1920px;
+    margin: 124px auto 0;
+  }
+
+  .section-divider-four img {
+    width: auto;
+  }
+
+}
 
 /****************CASE OVERVIEW STYLING (class: case-overview-container)****************/
 /* Positioning the container
@@ -1149,6 +1346,113 @@ of this section*/
   width: 100%;
 }
 
+/* Responsive section  */
+@media screen and (min-width: 750px) {
+  .deliverables-box {
+    width: 90%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .problem-solution-wrapper {
+    top: 700px;
+  }
+
+  .overview-mockup-mobileone {
+    top: 700px;
+  }
+
+  .overview-mockup-mobiletwo {
+    top: 700px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .case-overview-container {
+    position: relative;
+    top: 960px;
+  }
+
+  .section-heading {
+    position: relative;
+  }
+
+  .summary-wrapper {
+    position: relative;
+    margin-top: 125px;
+    height: 515px;
+  }
+
+  .deliverables-wrapper {
+    position: absolute;
+    top: 77px;
+    right: 15px;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 0;
+    width: 540px;
+    height: 445px;
+    background-color: #F9F8FA;
+  }
+
+  .deliverables-box {
+    position: absolute;
+    left: 43px;
+    top: 27px;
+    width: 454px;
+    height: 335px;
+  }
+
+  .deliverables-box .highlights-title {
+    width: auto;
+  }
+
+  .deliverables-points {
+    margin-top: 40px;
+  }
+
+  .deliverables-points h3 {
+    margin: 0px;
+    line-height: 38px;
+
+  }
+
+  .problem-solution-wrapper {
+    top: auto;
+    margin-top: 167px;
+    height: 352px;
+  }
+
+  .problem-box, .solution-box {
+    display: inline-block;
+  }
+
+  .problem-box {
+    padding: 0 0 0 15px;
+  }
+
+  .solution-box {
+    margin-top: 0px;
+    margin-left: 48px;
+    position: absolute;
+    width: auto;
+    padding: 0;
+    top: 0px;
+  }
+
+  .overview-mockup-mobileone, .overview-mockup-mobiletwo {
+    display: none;
+  }
+
+  .overview-mockup {
+    display: block;
+    position: relative;
+    top: 0px;
+    margin: 72px auto 0;
+  }
+}
+
 /****************CASE RESEARCH STYLING (class: case-research-container)****************/
 /* Positioning the container
 of this section*/
@@ -1189,10 +1493,10 @@ of this section*/
 .horizontal-section-wrapper-one {
   background-color: #F7F9FF;
   margin-top: 97px;
-  height: 459px;
+  /* height: 459px; */
   position: absolute;
   top: 9150px;
-  height: 815px;
+  height: 780px;
   width: 80%;
 }
 
@@ -1247,7 +1551,7 @@ of this section*/
 
 .competition-wrapper {
   position: absolute;
-  top: 3100px;
+  top: 3000px;
   margin-top: 70px;
   left: 0px;
   right: 0px;
@@ -1338,6 +1642,150 @@ of this section*/
 
 .user-persona-one .case-study-button, .user-persona-two .case-study-button {
   margin: 0 auto;
+}
+
+/* Responsive section */
+@media screen and (min-width: 414px) {
+  .horizontal-section-wrapper-one {
+    top: 9050px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .case-research-container {
+    top: 2350px;
+  }
+
+  .horizontal-section-wrapper-one {
+    top: 9000px;
+    height: 600px;
+  }
+
+  .competition-wrapper {
+    top: 2200px;
+  }
+
+  .sketch-onboarding, .sketch-saving, .sketch-organizing {
+    top: 1550px;
+    width: 70%;
+    text-align: center;
+    margin: 63px auto 0;
+  }
+
+  .defining-users-wrapper {
+    top: 5000px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .case-research-container {
+    top: 1250px;
+  }
+
+  .sketch-onboarding, .sketch-organizing, .sketch-saving {
+    display: none;
+  }
+
+  .section-box-assumptions {
+    position: absolute;
+    top: 450px;
+  }
+
+  .survey-screenshot {
+    position: absolute;
+    display: inline-block;
+    padding: 0;
+    /* left: 581px; */
+    /* right: 0px; */
+    top: 516px;
+    margin-left: 600px;
+  }
+
+  .survey-screenshot img {
+    display: block;
+    position: absolute;
+    right: 0px;
+
+  }
+
+  .survey-screenshot-mobile {
+    display: none;
+  }
+
+  .horizontal-section-wrapper-one {
+    position: absolute;
+    background-color: #F7F9FF;
+    top: 6100px;
+    left: 0px;
+    right: 0px;
+    height: 459px;
+    width: auto;
+    max-width: 1920px;
+    margin: 97px auto 0;
+    /* display: flex;
+    justify-content: center; */
+  }
+
+  .competition-wrapper {
+    position: absolute;
+    /* left: 351px; */
+    top: 1861px;
+    /* width: 1116px; */
+    /* margin-top: 97px; */
+  }
+
+  .research-sketches-wrapper {
+    position: relative;
+    top: 2400px;
+  }
+
+  .research-sketches img {
+    display: block;
+  }
+
+  .sketch-titles {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+  }
+
+  .sketch-titles ul {
+    text-align: center;
+  }
+
+  .defining-users-wrapper {
+    top: 3345px;
+    padding: 0 15px;
+  }
+
+  .defining-users-wrapper p {
+    width: 1116px;
+  }
+
+  .user-personas-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .defining-users-wrapper p {
+    width: 1116px;
+  }
+
+  .user-personas-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .user-persona-one .case-study-button, .user-persona-two .case-study-button {
+    margin: 0 auto;
+
+  }
+}
+
+@media screen and (min-width: 1660px) {
+  .horizontal-section-wrapper-one {
+    top: 6050px;
+  }
 }
 
 /****************CASE INFORMATION ARCHITECTURE STYLING (class: case-architecture-container)****************/
@@ -1457,7 +1905,7 @@ of this section*/
 
 .prototype-changes {
   /* height: 798px; */
-  top: 19895px;
+  top: 19800px;
   left: 0px;
   right: 0px;
   position: absolute;
@@ -1470,6 +1918,175 @@ of this section*/
 .prototype-changes-points {
   padding: 0% 3%;
 }
+
+/* Responsive section */
+@media screen and (min-width: 414px) {
+  .prototype-changes {
+    top: 19600px;
+  }
+}
+@media screen and (min-width: 750px) {
+  .case-architecture-container {
+    top: 5700px;
+  }
+
+  .prototype-changes {
+    top: 19000px;
+  }
+
+  .content-strategy {
+    top: 800px;
+  }
+
+  .content-strategy-mobile {
+    top: 800px;
+  }
+
+}
+
+@media screen and (min-width: 1280px) {
+  .case-architecture-container {
+  top: 5050px;
+  }
+
+  .user-flow-mobile {
+    display: none;
+  }
+
+  .user-flow {
+    display: block;
+    position: relative;
+    top: 471px;
+  }
+
+  .sketch-screenshot-mobile, .wireframes-images-mobile, .content-strategy-mobile  {
+    display: none;
+  }
+
+  .user-flows-wrapper, .wireframe-sketches {
+    padding: 0 0 0 15px;
+  }
+
+  .content-strategy-image {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: auto;
+    top: 4500px;
+    padding: 0;
+    margin-left: 635px;
+  }
+
+  .user-flows-wrapper {
+    position: absolute;
+    top: 405px;
+  }
+
+  .user-flow {
+    position: relative;
+    top: 471px;
+  }
+
+  .wireframe-sketches {
+    position: absolute;
+    top: 997px;
+  }
+
+  .sketch-screenshot-one, .sketch-screenshot-two, .sketch-screenshot-three {
+    display: block;
+  }
+
+  .sketch-screenshot-one {
+    top: 1095px;
+  }
+
+  .sketch-screenshot-two {
+    /* margin-left: 134px; */
+    position: relative;
+    top: 636px;
+    left: 105px;
+  }
+
+   .sketch-screenshot-three {
+      position: relative;
+      top: 716px;
+      left: 105px;
+   }
+
+  .wireframe-digital-wrapper {
+    top: 830px;
+  }
+
+  .wireframes-images-one, .wireframes-images-two, .wireframes-images-three {
+    display: block;
+  }
+
+  .wireframes-images-one {
+    margin-top: 48px;
+  }
+
+  .wireframes-images-two {
+    /* display: inline-block; */
+    position: relative;
+    top: 390px;
+    margin-left: 670px;
+  }
+
+  .usability-testing {
+    top: 500px;
+  }
+
+  .usability-text {
+    top: 470px;
+  }
+
+  .tasks-wrapper {
+    /* display: inline-block;
+    position: absolute;
+    left: 647px; */
+    top: 567px;
+  }
+
+  .prototype-changes {
+    height: 610px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .pinpointed-text {
+    position: absolute;
+    top: 3520px;
+  }
+
+  /* .prototype-changes {
+    top: 2430px;
+  } */
+  .prototype-changes {
+    top: 13280px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+  }
+
+  .prototype-changes-box {
+    position: relative;
+    width: 760px;
+    margin: 33px 0px 33px 0px;
+  }
+
+  .content-strategy {
+    position: absolute;
+    top: 4416px;
+  }
+
+}
+
+@media screen and (min-width: 1920px) {
+  .prototype-changes {
+    top: 13100px;
+  }
+}
+
 
 
 /****************CASE VISUAL DESIGN STYLING (class: visual-design-container)****************/
@@ -1489,20 +2106,13 @@ of this section*/
   left: 343px;
 } */
 
-/* .airbox-logo-image {
-  display: flex;
-  justify-content: center;
-  margin: 102px 0px 80px 0px;
-} */
 
 .brand-value-wrapper {
   height: 1441px;
   padding: 0;
 }
 
-/* .brand-value-wrapper .section-box, .logo-sketches-wrapper {
-  display: inline-block;
-} */
+
 
 .logo-sketches-wrapper {
   position: absolute;
@@ -1545,8 +2155,9 @@ of this section*/
 
 .branding-elements {
   position: absolute;
-  top: 25330px;
-  height: 1365px;
+  top: 25180px;
+  /* height: 1100px; */
+  height: 1350px;
   /* height: 585px; */
   display: flex;
   justify-content: center;
@@ -1581,7 +2192,8 @@ of this section*/
 
 .style-guide-wrapper {
   padding: 0;
-  margin-top: 2930px;
+  /* margin-top: 2930px; */
+  margin-top: 2830px;
 }
 
 /* .style-guide-wrapper .case-study-button {
@@ -1612,10 +2224,7 @@ of this section*/
   margin-bottom: 86px;
 }
 
-/* .paragraph-column-one, .paragraph-column-two {
-  display: inline-block;
-  position: relative;
-} */
+
 
 .testing-mockups-wrapper .section-box, .paragraph-column-one {
   padding: 0;
@@ -1640,7 +2249,7 @@ of this section*/
   margin-top: 35px;
   display: flex;
   justify-content: center;
-  top: 29755px;
+  top: 29520px;
   width: 100%;
   height: 1020px;
 }
@@ -1751,7 +2360,7 @@ of this section*/
 }
 
 .style-guide-mobile {
-  margin-top: 250px;
+  margin-top: 200px;
   text-align: center;
 }
 
@@ -1777,10 +2386,8 @@ of this section*/
   top: 0px;
   left: 0px;
   right: 0px;
-  margin-top: 635px;
+  margin-top: 630px;
 }
-
-
 
 .concluding-note {
   height: 294px;
@@ -1795,20 +2402,291 @@ of this section*/
   margin-top: 55px;
 }
 
-/* @media screen and (min-width: 1280px) {
+@media screen and (min-width: 414px) {
+  .branding-elements {
+    height: 1100px;
+  }
 
-  .airbox-logo-mobile {
-    display: none;
+  .style-guide-wrapper {
+    margin-top: 2930px;
   }
 
   .style-guide-mobile {
+    margin-top: 150px;
+  }
+
+  .paragraph-column-two {
+    margin-top: 570px;
+  }
+
+  .additional-improvements {
+    top: 29250px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .visual-design-container {
+    top: 6700px;
+  }
+
+  .logo-sketches-wrapper {
+    top: 1100px;
+  }
+
+  .logo-sketch-one, .logo-sketch-two, .logo-sketch-three {
+    width: 70%;
+  }
+
+  .branding-elements {
+    top: 24000px;
+    height: auto;
+  }
+
+  .style-guide-wrapper {
+    margin-top: 2000px;
+  }
+
+  .style-guide-mobile {
+    margin-top: 0;
+  }
+
+  .paragraph-column-two {
+    margin-top: 335px;
+  }
+
+  .additional-improvements {
+    top: 27000px;
+    height: 650px;
+  }
+
+  .concluding-note {
+    top: 1050px;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+
+  .visual-design-container {
+    top: 7000px;
+  }
+
+  .airbox-logo-mobile, .style-guide-mobile, .hifi-mockup-mobile {
     display: none;
   }
 
-  .hifi-mockup-mobile {
-    display: none;
+  .airbox-logo-image {
+    display: flex;
+    justify-content: center;
+    margin: 102px 0px 80px 0px;
   }
-} */
+
+  /* .brand-value-wrapper .section-box, .logo-sketches-wrapper {
+    display: inline-block;
+  } */
+
+  .logo-sketches-wrapper {
+    position: absolute;
+    top: 0px;
+    /* left: 574px; */
+    right: 0px;
+    margin-top: 70px;
+  }
+
+  .logo-sketches-wrapper img {
+    width: auto;
+  }
+
+  .brand-value-wrapper .paragraph-description {
+    width: 440px;
+  }
+
+  .branding-elements {
+    position: absolute;
+    top: 16960px;
+    height: 585px;
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    right: 0px;
+  }
+
+  .branding-list li {
+    font-size: 19px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    list-style: none;
+    margin-top: 34px;
+  }
+
+  .branding-elements-box {
+    position: relative;
+    width: 760px;
+    margin: 33px 0px 33px 0px;
+  }
+
+  .branding-elements-box .horizontal-section-title {
+    text-align: center;
+  }
+
+  .horizontal-section-title, .branding-elements-points {
+    padding: 0% 3%;
+  }
+
+  .style-guide-wrapper {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2600px;
+    /* margin-top: 673px; */
+  }
+
+  .style-guide-wrapper .case-study-button {
+    margin-top: 78px;
+    position: absolute;
+  }
+
+  .style-guide-images-wrapper {
+    display: inline-block;
+    position: relative;
+    left: 574px;
+    margin-top: 42px;
+    padding: 0;
+  }
+
+  .style-guide-image {
+    display: block;
+    margin-left: 50px;
+  }
+
+  .hifi-mockups-wrapper {
+    margin-top: 74px;
+    padding: 0;
+    position: relative;
+    top: 1500px;
+  }
+
+  .hifi-mockups-wrapper .section-box {
+    margin-bottom: 74px;
+  }
+
+  .hifi-mockup-image {
+    display: block;
+  }
+
+  .testing-mockups-wrapper {
+    position: relative;
+    top: 1431px;
+  }
+
+  /* .paragraph-column-one, .paragraph-column-two {
+    display: inline-block;
+    position: relative;
+  } */
+
+  .paragraph-column-one, .paragraph-column-two {
+    width: 540px;
+  }
+
+  .paragraph-column-two {
+    position: absolute;
+    padding: 0;
+    left: 570px;
+    margin: 66px 0 0;
+  }
+
+  .additional-improvements {
+    position: absolute;
+    top: 20100px;
+    left: 0;
+    right: 0;
+    height: 539px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .additional-improvements-box {
+    position: absolute;
+    width: 760px;
+    margin: 35px auto 38px;
+    /* margin-top: 35px; */
+  }
+
+  .additional-improvements-box h2 {
+    text-align: center;
+    margin-bottom: 38px;
+  }
+
+  .additional-improvements-points {
+    padding: 0;
+  }
+
+  .concluding-note {
+    margin-top: 600px;
+    top: 1725px;
+    text-align: center;
+    padding: 0% 20%;
+  }
+
+}
+
+@media screen and (min-width: 1366px) {
+  .branding-elements {
+    top: 16900px;
+  }
+
+  .additional-improvements {
+    top: 19900px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .branding-elements {
+    top: 16800px;
+  }
+
+  .concluding-note {
+    margin-top: 700px;
+  }
+}
+
+@media screen and (min-width: 1660px) {
+  .style-guide-wrapper {
+    top: 2680px;
+  }
+
+  .additional-improvements {
+    top: 19950px;
+  }
+
+  .concluding-note {
+    margin-top: 850px;
+  }
+
+}
+
+@media screen and (min-width: 1920px) {
+  .visual-design-container {
+    top: 7350px;
+  }
+
+  .branding-elements {
+    top: 16900px;
+  }
+
+  .style-guide-images-wrapper {
+    left: 800px;
+  }
+
+  .concluding-note {
+    padding: 0% 30%;
+    margin-top: 600px;
+  }
+}
+
 
 /****************CASE LESSONS LEARNED STYLING (class: lessons-learned-container)****************/
 /* Positioning the container
@@ -1817,14 +2695,13 @@ of this section*/
   position: absolute;
   background-color: rgba(135, 135, 135, 0.1);
   /* width: 100%; */
-  height: 2255px;
-  top: 31150px;
+  height: 2155px;
+  top: 31000px;
   left: 0;
   right: 0;
   display: flex;
   justify-content: center;
 }
-
 
 .concluding-section-wrapper {
   position: absolute;
@@ -1873,16 +2750,11 @@ of this section*/
   margin-bottom: 0;
   right: 0px;
   left: 0px;
-  top: 1975px;
+  top: 1900px;
   margin-top: 75px;
   display: block;
   width: 100%;
   text-align: center;
-}
-
-.lessons-learned-buttons {
-  /* display: inline-block;
-  margin-top: 0px; */
 }
 
 .desktop-prototype-button, .mobile-prototype-button {
@@ -1893,12 +2765,6 @@ of this section*/
 .desktop-prototype-button {
   margin-right: 112px;
 }
-
-
-
-
-
-
 
 .concluding-section-wrapper {
   /* width: 375px; */
@@ -1913,17 +2779,87 @@ of this section*/
 
 .column-two {
   left: 0;
-  top: 1050px;
+  top: 1000px;
 }
-
-
 
 .desktop-prototype-button {
   margin-right: 0px;
   margin-bottom: 20px;
 }
 
+/* Responsive section */
+@media screen and (min-width: 414px) {
+  .lessons-learned-container {
+    top: 30700px;
+  }
 
+  .column-two {
+    left: 0;
+    top: 950px;
+  }
+
+  .lessons-learned-buttons {
+    top: 1775px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .lessons-learned-container {
+    top: 28000px;
+    height: 1300px;
+  }
+
+  .column-two {
+    top: 500px;
+  }
+
+  .lessons-learned-buttons {
+    top: 1075px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .lessons-learned-container {
+    position: absolute;
+    height: 1000px;
+    top: 21050px;
+  }
+
+  .concluding-section-wrapper {
+    width: 1116px;
+    margin: 50px auto 0;
+    right: 0px;
+  }
+
+  .column-one, .column-two {
+    padding: 0 3%;
+  }
+
+  .column-two {
+    top: 0;
+    left: auto;
+    right: 0px;
+  }
+
+  .lessons-learned-buttons {
+    width: 1116px;
+    position: absolute;
+    top: 787px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .desktop-prototype-button, .mobile-prototype-button {
+    display: inline-block;
+    margin-top: 0px;
+  }
+
+  .desktop-prototype-button {
+    margin-right: 112px;
+  }
+
+}
 /****************CASE WORKING TOGETHER STYLING (class: working-together-container)****************/
 /* Positioning the container
 of this section*/
@@ -1952,31 +2888,11 @@ of this section*/
   padding: 0;
 }
 
-/* .working-together-wrapper .case-button {
-  margin: 0 auto;
-} */
 
 .working-together-wrapper .case-button {
   margin: 50px auto 0;
 }
 
-
-/* .illustration-toronto-fade {
-  position: absolute;
-  right: 400px;
-  mix-blend-mode: darken;
-  top: 10px;
-}
-
-.illustration-toronto-fade {
-  display: none;
-  position: absolute;
-  top: 33000px;
-}
-
-.illustration-toronto-fade img {
-  width: 100%;
-} */
 
 .illustration-toronto-fade {
   display: none;
@@ -1984,7 +2900,7 @@ of this section*/
 
 .illustration-toronto-fademobile {
   position: absolute;
-  top: 33454px;
+  top: 33325px;
   padding: 0;
   left: 0px; */
   height: 427px;
@@ -1995,13 +2911,26 @@ of this section*/
   width: 100%;
 }
 
+/* Responsive section */
+@media screen and (min-width: 414px) {
+  .illustration-toronto-fademobile {
+    top: 32950px;
+  }
+}
 
-
-
-
-/* @media screen and (min-width: 1280px) {
+@media screen and (min-width: 750px) {
   .working-together-container {
-    top: 8058px;
+    top: 9200px;
+  }
+
+  .illustration-toronto-fademobile {
+    top: 29300px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .working-together-container {
+    top: 9800px;
   }
 
   .working-together-wrapper {
@@ -2012,17 +2941,54 @@ of this section*/
     margin-top: 40px;
   }
 
-  .illustration-toronto-fade {
-    top: 21045px;
-    left: 200px;
-  }
-
   .illustration-toronto-fademobile {
     display: none;
   }
 
-} */
+  .illustration-toronto-fade {
+    display: block;
+    position: absolute;
+    top: 22100px;
+    /* left: 0px; */
+    /* width: 1812px; */
+    max-width: 1812px;
+    left: auto;
+    right: auto;
+    margin: 0 auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    mix-blend-mode: darken;
+  }
 
+  .illustration-toronto-fade {
+    /* right: 400px; */
+    /* mix-blend-mode: darken; */
+    /* top: 10px; */
+  }
+
+  /* .illustration-toronto-fade {
+    display: none;
+    position: absolute;
+    top: 33000px;
+  } */
+
+  /* .illustration-toronto-fade img {
+    width: auto;
+    margin: 0 auto;
+  } */
+
+  .working-together-wrapper .case-button {
+    margin-top: 40px;
+  }
+
+}
+
+@media screen and (min-width: 1920px) {
+  .working-together-wrapper {
+    top: 350px;
+  }
+}
 
 /****************CASE FOOTER STYLING (class: footer-wrapper)****************/
 /* Positioning the container
@@ -2031,15 +2997,27 @@ of this section*/
 
 
 .case-body .footer-wrapper {
-  top: 33725px;
+  top: 33596px;
   margin-top: 0px;
 }
 
 
-
-/* @media screen and (min-width: 1280px) {
+/* Responsive section */
+@media screen and (min-width: 414px) {
+  .case-body .footer-wrapper {
+    top: 33250px;
+  }
+}
+@media screen and (min-width: 750px) {
+  .case-body .footer-wrapper {
+    top: 29850px;
+  }
+}
+@media screen and (min-width: 1280px) {
 
   .case-body .footer-wrapper {
-    top: 20975px;
+    top: 22033px;
+    margin-top: 567px;
   }
-} */
+
+}

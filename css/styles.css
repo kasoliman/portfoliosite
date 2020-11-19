@@ -456,6 +456,10 @@ of this section*/
   margin-top: 211px;
 }
 
+.get-intouch-wrapper .row {
+  margin-right: auto;
+}
+
 .get-intouch-container {
   margin: 50px auto 0;
   padding: 0% 22% 0% 22%;
@@ -552,26 +556,97 @@ of the landing page */
 .illustration-toronto {
   mix-blend-mode: darken;
   position: relative;
-  top: 650px;
+  top: 695px;
   right: 180px;
-
 }
+
+/* container 520 px - everything else at zero for positions
+then the image at left 150px  */
+
+/* .illustration-toronto {
+  left: 0;
+  right: 520px;
+} */
+
+/* .illustration-toronto img {
+  width: 150%;
+  left: 150px;
+  right: 0px;
+} */
 
 @media screen and (max-width: 768px) {
   .illustration-toronto {
-    right: 450px;
+    right: 430px;
+  }
+
+  .illustration-toronto img {
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 750px) {
-  .illustration-toronto {
+  /* .illustration-toronto {
     right: 180px;
+  } */
+
+  .illustration-toronto img {
+    /* width: 650px; */
+    width: 210%;
+    position: absolute;
+    left: 148px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  .illustration-toronto img {
+    width: 190%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .illustration-toronto {
+    top: 630px;
   }
 
   .illustration-toronto img {
-    width: 700px;
-    position: absolute;
-    left: 148px;
+    width: 185%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .illustration-toronto {
+    top: 630px;
+  }
+
+  .illustration-toronto img {
+    width: 127%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .illustration-toronto {
+    right: 650px;
+    top: 660px;
+  }
+
+  .illustration-toronto img {
+    width: 168%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .illustration-toronto {
+    right: 350px;
+  }
+
+  .illustration-toronto img {
+    width: 140%;
+  }
+}
+
+@media screen and (min-width: 1460px) {
+  .illustration-toronto img {
+    width: auto;
   }
 }
 
@@ -585,6 +660,13 @@ of this section*/
   right: 0px;
   height: 453px;
   background-color: #000000;
+}
+
+
+/* removing the margin-right bootstrap styling
+from the .row class of the footer */
+.footer-wrapper .row {
+  margin-right: auto;
 }
 
 /* Positioning the sub-container

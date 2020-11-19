@@ -1054,7 +1054,7 @@ of this section*/
 
   .headline-images img {
     margin: 0 auto;
-    width: 105%;
+    width: 100%;
   }
 }
 
@@ -1273,7 +1273,7 @@ and positioning */
 @media screen and (min-width: 1280px) {
   .section-divider-one {
     position: absolute;
-    width: 1466px;
+    /* width: 1466px; */
     top: 2163px;
     left: 0px;
     right: 0px;
@@ -1284,12 +1284,12 @@ and positioning */
   }
 
   .section-divider-one img {
-    width: auto;
+    /* width: auto; */
   }
 
   .section-divider-two {
     position: absolute;
-    width: 1466px;
+    /* width: 1466px; */
     top: 4370px;
     left: 0px;
     right: 0px;
@@ -1300,12 +1300,12 @@ and positioning */
   }
 
   .section-divider-two img {
-    width: auto;
+    /* width: auto; */
   }
 
   .section-divider-three {
     position: absolute;
-    width: 1466px;
+    /* width: 1466px; */
     top: 8985px;
     left: 0px;
     right: 0px;
@@ -1316,12 +1316,12 @@ and positioning */
   }
 
   .section-divider-three img {
-    width: auto;
+    /* width: auto; */
   }
 
   .section-divider-four {
     position: absolute;
-    width: 1466px;
+    /* width: 1466px; */
     top: 14400px;
     left: 0px;
     right: 0px;
@@ -1332,7 +1332,7 @@ and positioning */
   }
 
   .section-divider-four img {
-    width: auto;
+    /* width: auto; */
   }
 
 }
@@ -1806,6 +1806,11 @@ of this section*/
     margin: 97px auto 0;
     /* display: flex;
     justify-content: center; */
+  }
+
+  .horizontal-section-wrapper-one .row {
+    width: 760px;
+    margin: 0 auto;
   }
 
   .competition-wrapper {
@@ -2735,9 +2740,13 @@ of this section*/
   }
 }
 
-@media screen and (min-width: 1660px) {
+@media screen and (min-width: 1600px) {
   .style-guide-wrapper {
     top: 2680px;
+  }
+
+  .branding-elements {
+    top: 16650px;
   }
 
   .additional-improvements {
@@ -2989,7 +2998,7 @@ of this section*/
   mix-blend-mode: darken;
 }
 
-.illustration-toronto-fademobile img {
+.illustration-toronto-fade img {
   width: 100%;
 }
 
@@ -3030,7 +3039,7 @@ of this section*/
   .illustration-toronto-fade {
     display: block;
     position: absolute;
-    top: 22100px;
+    top: 22180px;
     /* left: 0px; */
     /* width: 1812px; */
     max-width: 1812px;
@@ -3066,9 +3075,28 @@ of this section*/
 
 }
 
+@media screen and (min-width: 1440px) {
+  .illustration-toronto-fade {
+    top: 22130px;
+  }
+}
+
+
+@media screen and (min-width: 1600px) {
+  .illustration-toronto-fade {
+    top: 22075px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .illustration-toronto-fade {
+    top: 22015px;
+  }
+}
+
 @media screen and (min-width: 1920px) {
   .working-together-wrapper {
-    top: 350px;
+    top: 550px;
   }
 }
 
@@ -3101,5 +3129,9 @@ of this section*/
     top: 22033px;
     margin-top: 567px;
   }
+
+  /* .case-body .footer-container {
+    padding-right: 0;
+  }   */
 
 }

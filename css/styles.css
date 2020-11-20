@@ -2998,6 +2998,10 @@ of this section*/
   mix-blend-mode: darken;
 }
 
+.illustration-toronto-fademobile img {
+  width: 100%;
+}
+
 .illustration-toronto-fade img {
   width: 100%;
 }

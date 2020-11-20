@@ -1009,6 +1009,39 @@ of this section*/
 }
 
 /* Responsive section */
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .case-hero-buttons {
+    top: 66px;
+  }
+
+  .case-headline-text {
+    margin-top: 150px;
+    right: 414px;
+  }
+
+  .case-headline-text h4 {
+    font-size: 1.20rem;
+  }
+
+  .case-hero-image {
+    bottom: 370px;
+    left: 26px;
+  }
+
+  .headline-images, .headline-images-mobile {
+      display: none;
+    }
+  .headline-images-tablet {
+    display: block;
+    width: 87.75%;
+    position: absolute;
+    left: 0;
+  }
+  .headline-images-tablet img {
+    width: 114%;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .case-headline-text {
     position: absolute;
@@ -1103,6 +1136,25 @@ of this section*/
 }
 
 /* Responsive section */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .case-snapshot-container {
+    top: 750px;
+  }
+
+  .snapshot-line {
+    width: 126px;
+    height: 0px;
+    border: 1.5px solid #E13389;
+    position: absolute;
+    top: 15px;
+    left: 415px;
+    display: block;
+  }
+  .case-roles-deliverables {
+    top: 50px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .case-snapshot-container {
     position: relative;
@@ -1269,6 +1321,26 @@ and positioning */
     top: 20600px;
   }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .section-divider-one {
+    top: 2250px;
+  }
+
+  .section-divider-two {
+    top: 4900px;
+  }
+
+  .section-divider-three {
+    top: 9900px;
+  }
+
+  .section-divider-four {
+    top: 15500px;
+  }
+}
+
+
 
 @media screen and (min-width: 1280px) {
   .section-divider-one {
@@ -1448,6 +1520,36 @@ of this section*/
   .overview-mockup-mobiletwo {
     top: 700px;
   }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .deliverables-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .problem-solution-wrapper {
+    top: 300px;
+  }
+  .solution-box {
+    position: absolute;
+    margin-top: 0;
+    top: 0;
+    right: 0;
+  }
+
+  .overview-mockup-mobileone, .overview-mockup-mobiletwo {
+    display: none;
+  }
+
+  .overview-mockup {
+    display: block;
+    position: relative;
+    top: 0px;
+    margin: 400px auto 0;
+  }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -1759,6 +1861,83 @@ of this section*/
   }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .case-research-container {
+    top: 1700px;
+  }
+
+  .section-box-assumptions {
+    position: absolute;
+    left: 0;
+    padding-left: 0;
+    top: 600px;
+  }
+
+  .survey-screenshot-mobile {
+    display: none;
+  }
+
+  .survey-screenshot, .survey-screenshot img {
+    display: block;
+
+  }
+
+  .survey-screenshot {
+    top: 685px;
+  }
+
+  .survey-screenshot img {
+    width: 100%;
+  }
+
+  .horizontal-section-wrapper-one {
+    top: 6830px;
+  }
+
+  .sketch-onboarding, .sketch-organizing, .sketch-saving {
+    display: none;
+  }
+
+  .research-sketches-wrapper {
+    position: absolute;
+    top: 3150px;
+  }
+
+  .sketch-titles {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+  }
+
+  .sketch-titles ul {
+    text-align: center;
+  }
+
+  .saving-item {
+    margin-left: 108px;
+  }
+  .organize-item {
+    margin-left: 100px;
+  }
+
+  .research-sketches img {
+    display: block;
+    width: 100%;
+  }
+
+  .defining-users-wrapper {
+    top: 3670px;
+  }
+
+  .user-persona-one, .user-persona-two {
+    display: inline-block;
+  }
+
+  .user-persona-two {
+    position: absolute;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .case-research-container {
     top: 1250px;
@@ -2027,6 +2206,117 @@ of this section*/
 
   .content-strategy-mobile {
     top: 800px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .case-architecture-container {
+    top: 6300px;
+  }
+
+  .user-flows-wrapper {
+    position: absolute;
+    top: 500px;
+  }
+
+  .user-flow-mobile {
+    top: 540px;
+  }
+
+  .wireframe-sketches {
+    position: absolute;
+    top: 950px;
+  }
+
+  .sketch-screenshot-mobile {
+    display: none;
+  }
+
+  .sketch-screenshot-one, .sketch-screenshot-two, .sketch-screenshot-three {
+    display: inline-block;
+  }
+
+  .sketch-screenshot-one img {
+    width: 77%;
+  }
+
+  .sketch-screenshot-two img, .sketch-screenshot-three img {
+    width: 85%;
+  }
+
+  .sketch-screenshot-one {
+    top: 1250px;
+  }
+
+  .sketch-screenshot-two {
+    position: absolute;
+    top: 748px;
+  }
+
+  .sketch-screenshot-three {
+    position: absolute;
+    top: 1250px;
+  }
+
+
+  .wireframe-digital-wrapper {
+    top: 1300px;
+  }
+
+  .wireframes-images-mobile {
+    display: none;
+  }
+
+  .wireframes-images-one, .wireframes-images-two {
+    display: inline-block;
+  }
+
+  .wireframes-images-two {
+    position: absolute;
+    top: 2150px;
+    left: 450px;
+  }
+
+  .wireframes-images-one img {
+    width: 80%;
+  }
+
+  .wireframes-images-two img {
+    width: 107%;
+  }
+
+  .usability-testing {
+    position: absolute;
+    top: 2600px;
+  }
+
+  .tasks-wrapper {
+    top: 2018px;
+  }
+
+  .usability-text {
+    top: 1920px;
+  }
+
+  .prototype-changes {
+    top: 14227px;
+  }
+
+  .content-strategy {
+    position: absolute;
+    top: 4524px;
+  }
+
+  .content-strategy-mobile {
+    display: none;
+  }
+
+  .content-strategy-image {
+    display: inline-block;
+    position: absolute;
+    top: 4600px;
+    right: 0;
   }
 
 }
@@ -2551,6 +2841,91 @@ of this section*/
   }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .visual-design-container {
+    top: 9800px;
+  }
+
+  .airbox-logo-mobile {
+    margin: 85px auto 0;
+  }
+
+  .brand-value-wrapper .section-box, .logo-sketches-wrapper {
+    display: inline-block;
+  }
+
+  .logo-sketches-wrapper {
+    position: absolute;
+    top: 0;
+    left: 500px;
+  }
+
+  .branding-elements {
+    top: 17657px;
+  }
+
+  .style-guide-wrapper {
+    margin-top: 600px;
+  }
+
+  .style-guide-wrapper .section-box {
+    display: inline-block;
+  }
+
+  .style-guide-wrapper .case-study-button {
+    margin: 0;
+  }
+
+  .style-guide-images-wrapper {
+    margin-top: 0;
+    right: 0;
+  }
+
+  .style-guide-mobile {
+    position: absolute;
+    margin-left: 502px;
+  }
+
+  .hifi-mockups-wrapper {
+    margin-top: 600px;
+  }
+
+  .hifi-mockup-mobile {
+    display: none;
+  }
+
+  .hifi-mockup-image {
+    display: block;
+  }
+
+  .hifi-mockup-image img {
+    width: 85%;
+  }
+
+  .paragraph-column-one {
+    display: inline-block;
+    padding: 0% 5% 0% 0%;
+  }
+
+  .paragraph-column-two {
+    display: inline-block;
+    position: absolute;
+    margin-top: 74px;
+    left: 400px;
+    padding: 0% 5% 0% 0%;
+  }
+
+  .additional-improvements {
+    top: 20400px;
+  }
+
+  .concluding-note {
+    top: 800px;
+    text-align: center;
+    padding: 0% 10% 0% 10%;
+  }
+
+}
 
 @media screen and (min-width: 1280px) {
 
@@ -2908,6 +3283,31 @@ of this section*/
     top: 1075px;
   }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lessons-learned-container {
+    top: 21450px;
+    height: 1230px;
+  }
+
+  .lessons-learned-container .column-one, .lessons-learned-container .column-two {
+    display: inline-block;
+  }
+
+  .lessons-learned-container .column-two {
+    top: 0;
+    margin-left: 500px;
+  }
+
+  .lessons-learned-buttons {
+    top: 1000px;
+  }
+
+  .lessons-learned-buttons .desktop-prototype-button {
+    margin-right: 60px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .lessons-learned-container {
     position: absolute;
@@ -3023,6 +3423,32 @@ of this section*/
   }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .working-together-container {
+    top: 12000px;
+  }
+
+  .illustration-toronto-fademobile {
+    display: none;
+  }
+
+  .illustration-toronto-fade {
+    display: block;
+    position: absolute;
+    top: 22900px;
+    /* left: 0px; */
+    /* width: 1812px; */
+    max-width: 1812px;
+    left: auto;
+    right: auto;
+    margin: 0 auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    mix-blend-mode: darken;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .working-together-container {
     top: 9800px;
@@ -3127,6 +3553,12 @@ of this section*/
     top: 29850px;
   }
 }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .case-body .footer-wrapper {
+    top: 23235px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
 
   .case-body .footer-wrapper {

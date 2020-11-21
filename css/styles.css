@@ -589,6 +589,10 @@ then the image at left 150px  */
     right: 180px;
   } */
 
+  .illustration-toronto {
+    margin-top: 35px;
+  }
+
   .illustration-toronto img {
     /* width: 650px; */
     width: 210%;
@@ -631,6 +635,18 @@ then the image at left 150px  */
 
   .illustration-toronto img {
     width: 168%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .illustration-toronto {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1584px) {
+  .illustration-toronto {
+    margin-top: 50px;
   }
 }
 
